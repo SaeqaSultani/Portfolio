@@ -1,33 +1,33 @@
-.container{
-    display: flex;
-    flex-direction: column;
+.container {
+  display: flex;
+  flex-direction: column;
 }
 
-.nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-  img{
-    width: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+img {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-a{
-    width: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+a {
+  width: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-.short-presentation{
+.short-presentation {
     font-family: Poppins, sans-serif;
     font-weight: bold;
     font-size: 40px;
@@ -49,7 +49,7 @@ a{
     margin-top: -20px;
     margin-left: 20px;
     margin-right: 20px;
-  }
+}
 
   .footer h3:hover{
     font-family: Poppins, sans-serif;
