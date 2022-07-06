@@ -85,17 +85,17 @@ a {
 
 .home_presentation {
   background-image:
-  url("./images/Ellipse 11.png"),
-  url("./images/Rectangle 4.png"),
-  url("./images/Ellipse\ 3.png"),
-  url("./images/Ellipse\ 8.png"),
-  url("./images/Ellipse\ 5.png"),
-  url("./images/Rectangle\ 7.png"),
-  url("./images/Ellipse 12.png"),
-  url("./images/Ellipse 4.png"),
-  url("./images/Rectangle\ 5.png"),
-  url("./images/Ellipse\ 13.png"),
-  url(".images/Ellipse\ 15.png");
+    url("./images/Ellipse 11.png"),
+    url("./images/Rectangle 4.png"),
+    url("./images/Ellipse\ 3.png"),
+    url("./images/Ellipse\ 8.png"),
+    url("./images/Ellipse\ 5.png"),
+    url("./images/Rectangle\ 7.png"),
+    url("./images/Ellipse 12.png"),
+    url("./images/Ellipse 4.png"),
+    url("./images/Rectangle\ 5.png"),
+    url("./images/Ellipse\ 13.png"),
+    url(".images/Ellipse\ 15.png");
   background-position:
     19px 79px,
     294px 68px,
