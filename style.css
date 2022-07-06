@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
 }
 
 .nav{
@@ -9,13 +9,24 @@
     align-items: center;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.logo{
-    width: 80px;
-    height: 80px;
-    margin-top: 20px;
+  img{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
+
+a{
+    width: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 .short-presentation{
     font-family: Poppins, sans-serif;
     font-weight: bold;
