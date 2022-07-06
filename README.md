@@ -1,5 +1,5 @@
 # Portfolio-Project
-this is my first project in microvers
+this is a portfolio project that the purpose of this project is to understand how to parse a figma design to create a UI, flexbox to place elements in the page, build a personal portfolio mobile version skeleton,use images and backgrounds to enhance the look of the website.
 
 # Built With
 - Major languages
@@ -29,4 +29,4 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 # 📝 License
-This project is [MIT](https://github.com/SaeqaSultani/SaeqaSultani-Hello-Microvers-Project-PR/blob/master/MIT.md) licensed.
+This project is [MIT](https://github.com/SaeqaSultani/Portfolio-Project/blob/mobile-version-skeleton/MIT.md) licensed.
