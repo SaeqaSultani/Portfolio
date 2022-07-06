@@ -28,89 +28,89 @@ a {
 }
 
 .short-presentation {
-    font-family: Poppins, sans-serif;
-    font-weight: bold;
-    font-size: 40px;
-    color: #5db4a8;
-    line-height: 50px;
-    text-align: start;
-    justify-content: center;
-    margin-top: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #5db4a8;
+  line-height: 50px;
+  text-align: start;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .home_presentation p {
-    font-family: Poppins, sans-serif;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #344563;
-    margin-top: -20px;
-    margin-left: 20px;
-    margin-right: 20px;
+  font-family: Poppins, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: -20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-  .footer h3:hover{
-    font-family: Poppins, sans-serif;
-    font-weight: normal;
-    font-size: 16px;
-    color: #7fc8be;
-    text-align: start;
-    justify-content: center;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
+.footer h3:hover {
+  font-family: Poppins, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #7fc8be;
+  text-align: start;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
-  .footer h3{
-    font-family: Poppins, sans-serif;
-    font-weight: bold;
-    font-size: 16px;
-    color: #298075;
-    text-align: start;
-    justify-content: center;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
+.footer h3 {
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #298075;
+  text-align: start;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
-  .contact {
-    width: 150px;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    color: aqua;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
+.contact {
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: aqua;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
-  .home_presentation {
-    background-image:
-      url("./images/Ellipse 11.png"),
-      url("./images/Rectangle 4.png"),
-      url("./images/Ellipse\ 3.png"),
-      url("./images/Ellipse\ 8.png"),
-      url("./images/Ellipse\ 5.png"),
-      url("./images/Rectangle\ 7.png"),
-      url("./images/Ellipse 12.png"),
-      url("./images/Ellipse 4.png"),
-      url("./images/Rectangle\ 5.png"),
-      url("./images/Ellipse\ 13.png"),
-      url(".images/Ellipse\ 15.png");
-    background-position:
-      19px 79px,
-      294px 68px,
-      323px 102px,
-      214px 110px,
-      125px 106px,
-      127px 98px,
-      370px 385px,
-      290px 509px,
-      240px 507px,
-      357px 392px,
-      106px 497px;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 600px;
-  }
+.home_presentation {
+  background-image:
+  url("./images/Ellipse 11.png"),
+  url("./images/Rectangle 4.png"),
+  url("./images/Ellipse\ 3.png"),
+  url("./images/Ellipse\ 8.png"),
+  url("./images/Ellipse\ 5.png"),
+  url("./images/Rectangle\ 7.png"),
+  url("./images/Ellipse 12.png"),
+  url("./images/Ellipse 4.png"),
+  url("./images/Rectangle\ 5.png"),
+  url("./images/Ellipse\ 13.png"),
+  url(".images/Ellipse\ 15.png");
+  background-position:
+    19px 79px,
+    294px 68px,
+    323px 102px,
+    214px 110px,
+    125px 106px,
+    127px 98px,
+    370px 385px,
+    290px 509px,
+    240px 507px,
+    357px 392px,
+    106px 497px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
+}
