@@ -1,7 +1,6 @@
 .container{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
 
 .nav{
@@ -39,7 +38,6 @@
     margin-top: -20px;
     margin-left: 20px;
     margin-right: 20px;
-    
   }
 
   .footer h3:hover{
@@ -51,7 +49,6 @@
     justify-content: center;
     margin-left: 20px;
     margin-right: 20px;
-    
   }
 
   .footer h3{
@@ -63,7 +60,6 @@
     justify-content: center;
     margin-left: 20px;
     margin-right: 20px;
-
   }
 
   .contact {
