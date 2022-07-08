@@ -1,11 +1,11 @@
-.works{
+.works {
   display: grid;
   justify-content: center;
   align-items: center;
   margin: 30px;
   row-gap: 30px;
 }
-.text h2{
+.text h2 {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 35px;
@@ -16,13 +16,13 @@
   margin-bottom: -5px;
 }
 
-.list ul{
+.list ul {
   display: flex;
   margin-left: -40px;
   align-items: flex-start;
 }
 
-li{
+li {
   list-style-type: none;
   padding: 5px;
   color: rgb(172, 179, 192);
@@ -31,11 +31,11 @@ li{
   font-size: 12px;
 }
 
-.CANOPY{
+.CANOPY {
   color: rgb(52, 69, 99);
 }
 
-.text p{
+.text p {
   font-family: Poppins, sans-serif;
   font-weight: normal;
   font-size: 17px;
@@ -47,13 +47,13 @@ li{
   
 }
 
-.button-list ul{
+.button-list ul {
   display: flex;
   margin-left: -40px;
   align-items: flex-start;
 }
 
-.button-list ul li{
+.button-list ul li {
   color: rgb(96, 112, 255);
   padding: 5px 15px;
   border-radius: 6px;
@@ -61,7 +61,7 @@ li{
   margin-right: 13px;
 }
 
-a{
+a {
   color: rgb(96, 112, 255);
   text-decoration: none;
   font-weight: bold;
@@ -69,7 +69,7 @@ a{
   font-family: Poppins, sans-serif;
 }
 
-button{
+button {
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -87,7 +87,7 @@ button{
   color: rgb(96, 112, 255);
 }
 
-.about{
+.about {
   display: grid;
   justify-content: center;
   align-items: center;
@@ -95,7 +95,7 @@ button{
   row-gap: 10px;
 }
 
-h3{
+h3 {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 16px;
@@ -106,19 +106,19 @@ h3{
   margin-bottom: -5px;
 }
 
-.options{
+.options {
   display: flex;
   justify-content: space-between;
   margin-left: -40px;
   align-items: center;
 }
 
-.options ul{
+.options ul {
   display: flex;
   flex-direction: column;
 }
 
-.pro{
+.pro {
   margin-left: -80px;
   display: flex;
   background-color:rgb(246, 246, 246); ;
@@ -132,7 +132,7 @@ h3{
   bottom: 10px;
 }
 
-.pro p{
+.pro p {
   margin-left: 8px;
   font-family: Poppins, sans-serif;
   font-weight: bold;
@@ -160,7 +160,7 @@ h3{
   color: rgb(96, 112, 255);
 }
 
-.bg{
+.bg {
   background-color:rgb(246, 246, 246);
   height: 2px;
   margin-left: -40px;
