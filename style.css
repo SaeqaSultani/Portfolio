@@ -1,97 +1,143 @@
-.container {
-  display: flex;
-  flex-direction: column;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
+.works{
+  display: grid;
+  justify-content: center;
   align-items: center;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 30px;
+  row-gap: 30px;
 }
-
-img {
-  width: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-a {
-  width: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-h1 {
+.text h2{
   font-family: Poppins, sans-serif;
   font-weight: bold;
-  font-size: 70px;
-  color: rgb(30, 29, 79);
-  line-height: 60px;
-  text-align: start;
-  justify-content: center;
-  margin-top: 100px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size: 35px;
+  color: rgb(23, 43, 77);
+  line-height: 40px;
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: -5px;
 }
 
-.home_presentation p {
+.list ul{
+  display: flex;
+  margin-left: -40px;
+  align-items: flex-start;
+}
+
+li{
+  list-style-type: none;
+  padding: 5px;
+  color: rgb(172, 179, 192);
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.CANOPY{
+  color: rgb(52, 69, 99);
+}
+
+.text p{
   font-family: Poppins, sans-serif;
   font-weight: normal;
   font-size: 17px;
   line-height: 24px;
-  color: rgb(30, 29, 79);
-  margin-top: -20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  color: rgb(52, 69, 99);
+  display: flex;
+  justify-content: flex-start;
+  width: 300px;
+  
 }
 
-.footer h3 {
+.button-list ul{
+  display: flex;
+  margin-left: -40px;
+  align-items: flex-start;
+}
+
+.button-list ul li{
+  color: rgb(96, 112, 255);
+  padding: 5px 15px;
+  border-radius: 6px;
+  background-color: rgb(235, 235, 255);
+  margin-right: 13px;
+}
+
+a{
+  color: rgb(96, 112, 255);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
   font-family: Poppins, sans-serif;
-  font-weight: normal;
-  font-size: 16px;
-  color: rgb(158, 108, 255);
-  text-align: start;
-  justify-content: center;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
-.home_presentation {
-  background-image:
-    url("./images/Ellipse 11.png"),
-    url("./images/Rectangle 4.png"),
-    url("./images/Ellipse\ 3.png"),
-    url("./images/Ellipse\ 8.png"),
-    url("./images/Ellipse\ 5.png"),
-    url("./images/Rectangle\ 7.png"),
-    url("./images/Ellipse 12.png"),
-    url("./images/Ellipse 4.png"),
-    url("./images/Rectangle\ 5.png"),
-    url("./images/Ellipse\ 13.png"),
-    url(".images/Ellipse\ 15.png");
-  background-position:
-    19px 79px,
-    294px 68px,
-    323px 102px,
-    214px 110px,
-    125px 106px,
-    127px 98px,
-    370px 385px,
-    290px 509px,
-    240px 507px,
-    357px 392px,
-    106px 497px;
-  background-repeat: no-repeat;
+button{
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: white; 
+  color: black; 
+  border: 1.6px solid rgb(96, 112, 255);
+  border-radius: 8px;
+  color: rgb(96, 112, 255);
+}
+
+.about{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  row-gap: 10px;
+}
+
+h3{
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(8, 29, 66);
+  line-height: 40px;
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: -5px;
+}
+
+.options{
+  display: flex;
+  justify-content: space-between;
+  margin-left: -40px;
+  align-items: center;
+}
+
+.options ul{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 600px;
+}
+
+.pro{
+  margin-left: -80px;
+  display: flex;
+  background-color:rgb(246, 246, 246); ;
+  padding: 6px 18px;
+  font-size: 16px;
+  height: 45px;
+  align-items: center;
+  border-radius: 8px;
+  justify-content: flex-start;
+  margin-top: 10px;
+  bottom: 10px;
+}
+
+.pro p{
+  margin-left: 8px;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  color: rgb(52, 69, 99);
 }
 
 .contact ul {
@@ -99,11 +145,24 @@ h1 {
   align-items: center;
   padding-left: 0;
   color: aqua;
-  margin-right: 20px;
-  margin-left: 10px;
+
 }
 
 .icon {
   list-style-type: none;
   padding: 10px;
+}
+
+.footer h3 {
+  font-family: Poppins, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgb(96, 112, 255);
+}
+
+.bg{
+  background-color:rgb(246, 246, 246);
+  height: 2px;
+  margin-left: -40px;
+  margin-top: 10px;
 }
