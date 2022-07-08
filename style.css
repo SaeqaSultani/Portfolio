@@ -80,8 +80,7 @@ button {
 }
 
 .btn {
-  background-color: white; 
-  color: black; 
+  background-color: white;
   border: 1.6px solid rgb(96, 112, 255);
   border-radius: 8px;
   color: rgb(96, 112, 255);
@@ -121,7 +120,7 @@ h3 {
 .pro {
   margin-left: -80px;
   display: flex;
-  background-color:rgb(246, 246, 246); ;
+  background-color: rgb(246, 246, 246);
   padding: 6px 18px;
   font-size: 16px;
   height: 45px;
@@ -145,7 +144,6 @@ h3 {
   align-items: center;
   padding-left: 0;
   color: aqua;
-
 }
 
 .icon {
@@ -161,7 +159,7 @@ h3 {
 }
 
 .bg {
-  background-color:rgb(246, 246, 246);
+  background-color: rgb(246, 246, 246);
   height: 2px;
   margin-left: -40px;
   margin-top: 10px;
