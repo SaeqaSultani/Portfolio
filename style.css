@@ -54,7 +54,7 @@ li {
 }
 
 .button-list ul li {
-  float: left;
+  float:left;
   color: rgb(96, 112, 255);
   padding: 5px 15px;
   border-radius: 6px;
