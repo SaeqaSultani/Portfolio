@@ -48,17 +48,19 @@ li {
 }
 
 .button-list ul {
-  display: flex;
+  /* display: flex; */
   margin-left: -40px;
   align-items: flex-start;
 }
 
 .button-list ul li {
+  float: left;
   color: rgb(96, 112, 255);
   padding: 5px 15px;
   border-radius: 6px;
   background-color: rgb(235, 235, 255);
   margin-right: 13px;
+  margin-bottom: 10px;
 }
 
 a {
