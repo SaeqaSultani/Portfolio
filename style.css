@@ -204,7 +204,7 @@ h3{
 }
 
 .contact-paragraph{
-  color: rgb(214, 220, 229);
+  color: white;
   padding-left: 20px;
   padding-right: 20px;
   font-family: "Poppins", sans-serif;
@@ -278,5 +278,7 @@ h3{
 }
 
 .btn-submit:hover {
-  background-color: rgb(210, 145, 47);
+  background-color: rgb(106, 75, 245);
+  color: aliceblue;
 }
+
