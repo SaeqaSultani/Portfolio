@@ -1,32 +1,58 @@
-# Portfolio-Project
-this is a portfolio project that the purpose of this project is to understand how to parse a figma design to create a UI, flexbox to place elements in the page, build a personal portfolio mobile version skeleton,use images and backgrounds to enhance the look of the website.
+ Portfolio portfolio
 
-# Built With
-- Major languages
-- Frameworks
-- Technologies used
+The project is inspired by the figma microverse template 1 (https://figma.com/)
+For this portfolio website, I implemented Html And Css that includes the project details in mobile.
 
-# Authors
+ 
+## Built With the following
 
-👤 Saeqa Sultani
+- HTML
+- CSS
+- Linters
 
-GitHub: [SaeqaSultani](https://github.com/SaeqaSultani)
+## Get Started
 
-Twitter: [SaeqaSultani](https://twitter.com/SaeqaSultani)
+Please get your browser update.
+To get a local copy up and running follow these simple steps.
 
-LinkedIn: [SaeqaSultani](https://www.linkedin.com/in/saeqa-sultani-b41493187/)
+Run the command below from the Terminal:
 
-# 🤝 Contributing
+      git clone <URL> 'https://github.com/degisew/portfolio' in your terminal
+
+	  cd mobile-skeleton
+
+
+## Authors
+
+👤 **Saeqa Sultani**
+
+- Location: Afghanistan
+- GitHub: [SaeqaSultani](https://github.com/SaeqaSultani)
+- Twitter: [SaeqaSultani](https://twitter.com/SaeqaSultani)
+- LinkedIn: [SaeqaSultani](https://www.linkedin.com/in/saeqa-sultani-b41493187/)
+
+
+👤 **Degisew**
+
+- Location: Ethiopia
+- GitHub: [@jegisew21](https://github.com/degisew)
+- Twitter: [@DJ_etiya](https://twitter.com/Degisew-mengist)
+- LinkedIn: [jegisew21](https://www.linkedin.com/in/degisew-mengist-003298802)
+
+## 🤝 Contributing
+
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/SaeqaSultani/SaeqaSultani-Hello-Microvers-Project-PR/issues).
+Feel free to check the [issues page](https://github.com/degisew/portfolio/issues).
 
-# Show your support
-Give a ⭐️ if you like this project!
+## Show your support
 
-# Acknowledgments
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-# 📝 License
-This project is [MIT](https://github.com/SaeqaSultani/Portfolio-Project/blob/mobile-version-skeleton/MIT.md) licensed.
+Give a ⭐ if you like this project!
+
+## Acknowledgments
+
+- Thanks to Microverse and my Coding Partners
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
