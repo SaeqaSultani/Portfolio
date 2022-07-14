@@ -219,7 +219,7 @@ button {
 .pro {
   margin-left: -80px;
   display: flex;
-  background-color:rgb(246, 246, 246);
+  background-color: rgb(246, 246, 246);
   padding: 6px 18px;
   font-size: 16px;
   height: 45px;
@@ -245,7 +245,7 @@ button {
 }
 
 .bg {
-  background-color:rgb(246, 246, 246);
+  background-color: rgb(246, 246, 246);
   height: 2px;
   margin-left: -40px;
   margin-top: 10px;
@@ -343,7 +343,7 @@ button {
   font-size: 18px;
   transition-duration: 0.4s;
   cursor: pointer;
-  background-color: white; 
+  background-color: white;
   border-radius: 10px;
   border: 2px solid rgb(96, 112, 255);
   color: rgb(72, 87, 223);
