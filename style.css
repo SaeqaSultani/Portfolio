@@ -171,7 +171,7 @@ button {
 
 .btn {
   background-color: white;
-  border: 1.6px ,solid, rgb(96, 112, 255);
+  border: 1.6px solid rgb(96, 112, 255);
   border-radius: 8px;
   color: rgb(96, 112, 255);
 }
@@ -219,7 +219,7 @@ button {
 .pro {
   margin-left: -80px;
   display: flex;
-  background-color:rgb(246, 246, 246); ;
+  background-color:rgb(246, 246, 246);
   padding: 6px 18px;
   font-size: 16px;
   height: 45px;
@@ -242,12 +242,6 @@ button {
   align-items: center;
   padding-left: 0;
   color: aqua;
-
-}
-
-.icon {
-  list-style-type: none;
-  padding: 10px;
 }
 
 .bg {
@@ -302,7 +296,6 @@ button {
 .contact-text h2 {
   color: rgb(255, 255, 255);
   font-size: 40px;
- 
 }
 
 .form {
