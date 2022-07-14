@@ -170,9 +170,8 @@ button {
 }
 
 .btn {
-  background-color: white; 
-  color: black; 
-  border: 1.6px solid rgb(96, 112, 255);
+  background-color: white;
+  border: 1.6px ,solid, rgb(96, 112, 255);
   border-radius: 8px;
   color: rgb(96, 112, 255);
 }
@@ -228,7 +227,6 @@ button {
   border-radius: 8px;
   justify-content: flex-start;
   margin-top: 10px;
-  bottom: 10px;
 }
 
 .pro p {
