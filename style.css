@@ -111,7 +111,9 @@
   list-style-type: none;
   padding: 10px;
 } 
+
 /* ############################################# work section ############################################################################# */
+
 .works {
   display: grid;
   justify-content: center;
