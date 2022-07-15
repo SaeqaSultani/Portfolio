@@ -1,4 +1,4 @@
-.container{
+.container {
   display: grid;
   justify-content: center;
   align-items: center;
@@ -6,7 +6,7 @@
   row-gap: 30px;
 }
 
-.home-page{
+.home-page {
   display: grid;
   justify-content: center;
   align-items: center;
@@ -33,7 +33,7 @@
   font-size: 15px;
 }
 
-.div-text{
+.div-text {
   display: flex;
   position: absolute;
   flex-direction: column;
@@ -46,23 +46,23 @@
   padding-top: 30px;
 }
 
-.mob{
+.mob {
   display: block;
 }
 
-.dec{
+.dec {
   display: none;
 }
 
-.br{
+.br {
   display: block;
 }
 
-.internal-link{
+.internal-link {
   display: none;
 }
 
-.internal-link{
+.internal-link {
   display: none;
 }
 
@@ -116,7 +116,7 @@
   padding: 10px;
 } 
 /* ############################################# work section ############################################################################# */
-.works{
+.works {
   display: grid;
   justify-content: center;
   align-items: center;
@@ -124,7 +124,7 @@
   row-gap: 30px;
 }
 
-.text h2{
+.text h2 {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 35px;
@@ -135,7 +135,7 @@
   margin-bottom: -5px;
 }
 
-.tonic{
+.tonic {
   display: block;
 }
 
@@ -143,13 +143,13 @@
   display: none;
 }
 
-.list ul{
+.list ul {
   display: flex;
   margin-left: -40px;
   align-items: flex-start;
 }
 
-li{
+li {
   list-style-type: none;
   padding: 5px;
   color: rgb(172, 179, 192);
@@ -158,11 +158,11 @@ li{
   font-size: 12px;
 }
 
-.CANOPY{
+.CANOPY {
   color: rgb(52, 69, 99);
 }
 
-.text p{
+.text p {
   font-family: Poppins, sans-serif;
   font-weight: normal;
   font-size: 17px;
@@ -174,12 +174,12 @@ li{
   
 }
 
-.button-list ul{
+.button-list ul {
   display: flex;
   margin-left: -40px;
 }
 
-.button-list ul li{
+.button-list ul li {
   color: rgb(96, 112, 255);
   padding: 10px;
   border-radius: 6px;
@@ -187,7 +187,7 @@ li{
   margin-right: 13px;
 }
 
-a{
+a {
   color: rgb(96, 112, 255);
   text-decoration: none;
   font-weight: bold;
@@ -196,11 +196,11 @@ a{
   justify-content: center;
 }
 
-.ruby{
+.ruby {
   display: none;
 }
 
-button{
+button {
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -220,7 +220,7 @@ button{
 
 /* ################################################# about section ######################################################################## */
 
-.about{
+.about {
   display: grid;
   justify-content: center;
   align-items: center;
@@ -228,7 +228,7 @@ button{
   row-gap: 10px;
 }
 
-.options h3{
+.options h3 {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 16px;
@@ -239,7 +239,7 @@ button{
   margin-bottom: -5px;
 }
 
-.about-footer h3{
+.about-footer h3 {
   font-family: Poppins, sans-serif;
   font-weight: normal;
   font-size: 16px;
@@ -248,19 +248,19 @@ button{
   justify-content: center;
 }
 
-.options{
+.options {
   display: flex;
   justify-content: space-between;
   margin-left: -40px;
   align-items: center;
 }
 
-.options ul{
+.options ul {
   display: flex;
   flex-direction: column;
 }
 
-.pro{
+.pro {
   margin-left: -80px;
   display: flex;
   background-color:rgb(246, 246, 246); ;
@@ -274,7 +274,7 @@ button{
   bottom: 10px;
 }
 
-.pro p{
+.pro p {
   margin-left: 8px;
   font-family: Poppins, sans-serif;
   font-weight: bold;
@@ -295,7 +295,7 @@ button{
   padding: 10px;
 }
 
-.bg{
+.bg {
   background-color:rgb(246, 246, 246);
   height: 2px;
   margin-top: 10px;
@@ -304,7 +304,7 @@ button{
   /* ########################################### contact form ##################################################################################### */
 
 
-.contact-form{
+.contact-form {
   display: grid;
   justify-content: center;
   align-items: center;
@@ -312,19 +312,19 @@ button{
   row-gap: 30px;
 }
   
-.background{
+.background {
   display: flex;
   justify-content: center;
 }
   
-.background-shape{
+.background-shape {
   display: flex;
   position: absolute;
   margin-left: 153px;
   margin-top: 30px;
 }
   
-.contact-text{
+.contact-text {
   display: flex;
   position: absolute;
   flex-direction: column;
@@ -337,7 +337,7 @@ button{
   padding-top: 30px;
 }
   
-.contact-text p{
+.contact-text p {
   color: rgb(214, 220, 229);
   font-size: 23px;
   margin-top: -20px;
@@ -346,12 +346,12 @@ button{
   margin-right: 23px;
 }
   
-.contact-text h2{
+.contact-text h2 {
   color: rgb(255, 255, 255);
   font-size: 40px; 
 }
   
-.form{
+.form {
   display: flex;
   justify-content: flex-start;
 }
@@ -386,7 +386,7 @@ button{
   border: 2px solid rgb(96, 112, 255);
 }
   
-.btn-submit{
+.btn-submit {
   margin-right: 180px;
   margin-top: 10px;
   background-color: #4CAF50;
@@ -413,18 +413,19 @@ button{
 /* for desctop version */
 @media only screen and (min-width: 768px) {
 
-  .mob{
+  .mob {
     display: none;
   }
 
-  .dec{
+  .dec {
     display: block;
   }
 
-  .internal-link{
+  .internal-link {
     display: block;
   }
-  .container{
+
+  .container {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -432,7 +433,7 @@ button{
     row-gap: 30px;
   }
   
-  .home-page{
+  .home-page {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -526,7 +527,7 @@ button{
     align-items: center;
   }
   
-  .div-text{
+  .div-text {
     display: flex;
     position: absolute;
     flex-direction: column;
@@ -542,7 +543,7 @@ button{
     padding-top: 30px;
   }
 /* ######################################### work section #############################################################################*/
-  .works{
+  .works {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -550,13 +551,13 @@ button{
     row-gap: 30px;
   }
 
-  .sections{
+  .sections {
     display: flex;
     flex-direction: row;
     column-gap: 50px;
   }
 
-  .text h2{
+  .text h2 {
     font-family: Poppins, sans-serif;
     font-weight: bold;
     font-size: 40px;
@@ -567,7 +568,7 @@ button{
     margin-bottom: -5px;
   }
 
-  .tonic{
+  .tonic {
     display: none;
   }
   
@@ -576,18 +577,18 @@ button{
   }
   
 
-  .br{
+  .br {
     display: none;
   }
   
   
-  .list ul{
+  .list ul {
     display: flex;
     margin-left: -40px;
     align-items: flex-start;
   }
   
-  li{
+  li {
     list-style-type: none;
     padding: 10px;
     color: rgb(172, 179, 192);
@@ -596,11 +597,11 @@ button{
     font-size: 13px;
   }
   
-  .CANOPY{
+  .CANOPY {
     color: rgb(52, 69, 99);
   }
   
-  .text p{
+  .text p {
     font-family: Poppins, sans-serif;
     font-weight: normal;
     font-size: 17px;
@@ -612,12 +613,12 @@ button{
     
   }
   
-  .button-list ul{
+  .button-list ul {
     display: flex;
     margin-left: -40px;
   }
   
-  .button-list ul li{
+  .button-list ul li {
     color: rgb(96, 112, 255);
     padding: 10px;
     border-radius: 6px;
@@ -625,7 +626,7 @@ button{
     margin-right: 13px;
   }
   
-  a{
+  a {
     color: rgb(96, 112, 255);
     text-decoration: none;
     font-weight: bold;
@@ -634,11 +635,11 @@ button{
     justify-content: center;
   }
 
-  .ruby{
+  .ruby {
     display: block;
   }
   
-  button{
+  button {
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -659,7 +660,7 @@ button{
 /* ######################################### about section #############################################################################*/
 
 
-  .about{
+  .about {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -667,13 +668,13 @@ button{
     row-gap: 10px;
   }
 
-.section-about{
+.section-about {
   display: flex;
   flex-direction: row;
   column-gap: 150px;
 }
 
-  .options h3{
+  .options h3 {
     font-family: Poppins, sans-serif;
     font-weight: bold;
     font-size: 16px;
@@ -684,7 +685,7 @@ button{
     margin-bottom: -5px;
   }
   
-  .about-footer h3{
+  .about-footer h3 {
     font-family: Poppins, sans-serif;
     font-weight: normal;
     font-size: 16px;
@@ -693,7 +694,7 @@ button{
     justify-content: center;
   }
   
-  .options{
+  .options {
     display: flex;
     flex-direction: row;
     column-gap: 300px;
@@ -701,19 +702,19 @@ button{
 
   }
   
-  .options ul{
+  .options ul {
     display: flex;
     flex-direction: column;
   }
   
-  .list-pro{
+  .list-pro {
     display: flex;
     margin-left: -40px;
     align-items: flex-start;
     justify-content: space-between;
   }
 
-  .pro{
+  .pro {
     margin-left: -40px;
     display: flex;
     background-color:rgb(246, 246, 246); ;
@@ -729,7 +730,7 @@ button{
     bottom: 10px;
   }
   
-  .pro p{
+  .pro p {
     margin-left: 8px;
     font-family: Poppins, sans-serif;
     font-weight: bold;
@@ -750,7 +751,7 @@ button{
     padding: 10px;
   }
   
-  .bg{
+  .bg {
     background-color:rgb(246, 246, 246);
     height: 2px;
     margin-left: -40px;
@@ -759,7 +760,7 @@ button{
 
   /* ########################################### contact form ##################################################################################### */
   
-  .contact-form{
+  .contact-form {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -767,19 +768,19 @@ button{
     row-gap: 30px;
   }
   
-  .background{
+  .background {
     display: flex;
     justify-content: center;
   }
   
-  .background-shape{
+  .background-shape {
     display: flex;
     position: absolute;
     margin-left: 153px;
     margin-top: 30px;
   }
   
-  .contact-text{
+  .contact-text {
     display: flex;
     position: absolute;
     flex-direction: column;
@@ -792,20 +793,20 @@ button{
     width: 580px;
   }
   
-  .contact-text p{
+  .contact-text p {
     color: rgb(214, 220, 229);
     font-size: 23px;
     margin-top: -20px;
     line-height: 25px;
   }
   
-  .contact-text h2{
+  .contact-text h2 {
     color: rgb(255, 255, 255);
     font-size: 40px;
    
   }
   
-  .form{
+  .form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -841,7 +842,7 @@ button{
     border: 1px solid rgb(96, 112, 255);
   }
   
-  .btn-submit{
+  .btn-submit {
     margin-left: 180px;
     margin-top: 10px;
     background-color: #4CAF50; 
