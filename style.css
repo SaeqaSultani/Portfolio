@@ -510,7 +510,7 @@ button {
   .icon {
     list-style-type: none;
     padding: 10px;
-  } 
+  }
   
   .title {
     font-family: Poppins, sans-serif;
@@ -527,7 +527,6 @@ button {
     display: flex;
     position: absolute;
     flex-direction: column;
-    margin-top: 55px;
     text-align: justify;
     justify-content: center;
     font-family: Poppins, sans-serif;
@@ -538,7 +537,7 @@ button {
     width: 50%;
     padding-top: 30px;
   }
-/* ######################################### work section #############################################################################*/
+
   .works {
     display: grid;
     justify-content: center;
@@ -582,15 +581,6 @@ button {
     align-items: flex-start;
   }
 
-  li {
-    list-style-type: none;
-    padding: 10px;
-    color: rgb(172, 179, 192);
-    font-family: Poppins, sans-serif;
-    font-weight: bold;
-    font-size: 13px;
-  }
-
   .CANOPY {
     color: rgb(52, 69, 99);
   }
@@ -619,15 +609,6 @@ button {
     margin-right: 13px;
   }
 
-  a {
-    color: rgb(96, 112, 255);
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 10px;
-    font-family: Poppins, sans-serif;
-    justify-content: center;
-  }
-
   .ruby {
     display: block;
   }
@@ -643,12 +624,12 @@ button {
   }
 
   .btn:hover {
-    background-color: white; 
+    background-color: white;
     border: 1.6px solid rgb(96, 112, 255);
     border-radius: 8px;
     color: rgb(96, 112, 255);
   }
-/* ######################################### about section #############################################################################*/
+  
   .about {
     display: grid;
     justify-content: center;
