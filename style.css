@@ -563,20 +563,25 @@ button {
     margin-top: 40px;
     margin-bottom: -5px;
   }
+  
   .tonic {
     display: none;
   }
+
   .face {
     display: block;
   }
+
   .br {
     display: none;
   }
+
   .list ul {
     display: flex;
     margin-left: -40px;
     align-items: flex-start;
   }
+
   li {
     list-style-type: none;
     padding: 10px;
@@ -585,9 +590,11 @@ button {
     font-weight: bold;
     font-size: 13px;
   }
+
   .CANOPY {
     color: rgb(52, 69, 99);
   }
+
   .text p {
     font-family: Poppins, sans-serif;
     font-weight: normal;
@@ -598,10 +605,12 @@ button {
     justify-content: flex-start;
     width: 500px;
   }
+
   .button-list ul {
     display: flex;
     margin-left: -40px;
   }
+
   .button-list ul li {
     color: rgb(96, 112, 255);
     padding: 10px;
@@ -609,6 +618,7 @@ button {
     background-color: rgb(235, 235, 255);
     margin-right: 13px;
   }
+
   a {
     color: rgb(96, 112, 255);
     text-decoration: none;
@@ -617,9 +627,11 @@ button {
     font-family: Poppins, sans-serif;
     justify-content: center;
   }
+
   .ruby {
     display: block;
   }
+
   button {
     padding: 10px 20px;
     text-align: center;
@@ -629,6 +641,7 @@ button {
     margin: 4px 2px;
     cursor: pointer;
   }
+
   .btn:hover {
     background-color: white; 
     color: black; 
@@ -647,11 +660,13 @@ button {
     margin: 30px;
     row-gap: 10px;
   }
+
   .section-about {
   display: flex;
   flex-direction: row;
   column-gap: 150px;
   }
+
   .options h3 {
     font-family: Poppins, sans-serif;
     font-weight: bold;
@@ -662,6 +677,7 @@ button {
     margin-top: 5px;
     margin-bottom: -5px;
   }
+
   .about-footer h3 {
     font-family: Poppins, sans-serif;
     font-weight: normal;
@@ -670,6 +686,7 @@ button {
     text-align: start;
     justify-content: center;
   }
+
   .options {
     display: flex;
     flex-direction: row;
@@ -677,16 +694,19 @@ button {
     justify-content: space-between;
 
   }
+
   .options ul {
     display: flex;
     flex-direction: column;
   }
+
   .list-pro {
     display: flex;
     margin-left: -40px;
     align-items: flex-start;
     justify-content: space-between;
   }
+
   .pro {
     margin-left: -40px;
     display: flex;
@@ -702,6 +722,7 @@ button {
     margin-top: 10px;
     bottom: 10px;
   }
+
   .pro p {
     margin-left: 8px;
     font-family: Poppins, sans-serif;
@@ -709,16 +730,19 @@ button {
     font-size: 13px;
     color: rgb(52, 69, 99);
   }
+
   .about-contact ul {
     display: flex;
     align-items: center;
     padding-left: 0;
     color: aqua;
   }
+
   .icon {
     list-style-type: none;
     padding: 10px;
   }
+
   .bg {
     background-color:rgb(246, 246, 246);
     height: 2px;
@@ -735,7 +759,7 @@ button {
     margin: 30px;
     row-gap: 30px;
   }
-  
+
   .background {
     display: flex;
     justify-content: center;
