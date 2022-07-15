@@ -286,13 +286,8 @@ button {
   color: aqua;
 }
 
-.icon {
-  list-style-type: none;
-  padding: 10px;
-}
-
 .bg {
-  background-color:rgb(246, 246, 246);
+  background-color: rgb(246, 246, 246);
   height: 2px;
   margin-top: 10px;
 }
@@ -389,7 +384,7 @@ button {
   font-size: 18px;
   transition-duration: 0.4s;
   cursor: pointer;
-  background-color: white; 
+  background-color: white;
   border-radius: 10px;
   border: 2px solid rgb(96, 112, 255);
   color: rgb(72, 87, 223);
@@ -434,13 +429,6 @@ button {
     margin-right: 20px;
     margin-top: -10px;
   }
-  
-  .internal-link {
-    display: flex;
-    justify-content: space-between;
-    min-width: 190px;
-    display: block;
-  }
 
   .internal-link li a {
     text-decoration: none;
@@ -450,7 +438,13 @@ button {
     line-height: 20px;
     color: #344563;
   }
-  
+
+  .internal-link {
+    display: flex;
+    justify-content: space-between;
+    min-width: 190px;
+  }
+
   .title-home-page {
     font-family: Poppins, sans-serif;
     font-weight: bold;
@@ -461,7 +455,7 @@ button {
     justify-content: flex-start;
     margin-top: -20px;
   }
-  
+
   .dec-home-page {
     font-family: Poppins, sans-serif;
     font-weight: normal;
@@ -473,7 +467,7 @@ button {
     margin-left: 20px;
     margin-right: 20px;
   }
-  
+
   .footer h3 {
     font-family: Poppins, sans-serif;
     font-weight: normal;
@@ -484,7 +478,7 @@ button {
     margin-left: 20px;
     margin-right: 20px;
   }
-  
+
   .contact ul {
     display: flex;
     align-items: center;
@@ -493,12 +487,12 @@ button {
     margin-right: 20px;
     margin-left: 10px;
   }
-  
+
   .icon {
     list-style-type: none;
     padding: 10px;
   }
-  
+
   .title {
     font-family: Poppins, sans-serif;
     font-weight: bold;
@@ -509,7 +503,7 @@ button {
     justify-content: center;
     align-items: center;
   }
-  
+
   .div-text {
     display: flex;
     position: absolute;
@@ -616,7 +610,7 @@ button {
     border-radius: 8px;
     color: rgb(96, 112, 255);
   }
-  
+
   .about {
     display: grid;
     justify-content: center;
