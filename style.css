@@ -563,7 +563,7 @@ button {
     margin-top: 40px;
     margin-bottom: -5px;
   }
-  
+
   .tonic {
     display: none;
   }
@@ -644,15 +644,11 @@ button {
 
   .btn:hover {
     background-color: white; 
-    color: black; 
     border: 1.6px solid rgb(96, 112, 255);
     border-radius: 8px;
     color: rgb(96, 112, 255);
   }
-  
 /* ######################################### about section #############################################################################*/
-
-
   .about {
     display: grid;
     justify-content: center;
@@ -662,9 +658,9 @@ button {
   }
 
   .section-about {
-  display: flex;
-  flex-direction: row;
-  column-gap: 150px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 150px;
   }
 
   .options h3 {
@@ -692,7 +688,6 @@ button {
     flex-direction: row;
     column-gap: 300px;
     justify-content: space-between;
-
   }
 
   .options ul {
@@ -710,7 +705,7 @@ button {
   .pro {
     margin-left: -40px;
     display: flex;
-    background-color:rgb(246, 246, 246); ;
+    background-color: rgb(246, 246, 246);
     padding: 6px 18px;
     font-size: 16px;
     height: 100px;
@@ -738,20 +733,14 @@ button {
     color: aqua;
   }
 
-  .icon {
-    list-style-type: none;
-    padding: 10px;
-  }
-
   .bg {
-    background-color:rgb(246, 246, 246);
+    background-color: rgb(246, 246, 246);
     height: 2px;
     margin-left: -40px;
     margin-top: 10px;
   }
 
   /* ########################################### contact form ##################################################################################### */
-  
   .contact-form {
     display: grid;
     justify-content: center;
@@ -844,7 +833,7 @@ button {
     font-size: 18px;
     transition-duration: 0.4s;
     cursor: pointer;
-    background-color: white; 
+    background-color: white;
     border-radius: 10px;
     border: 2px solid rgb(96, 112, 255);
     color: rgb(72, 87, 223);
