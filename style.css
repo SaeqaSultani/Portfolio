@@ -735,16 +735,19 @@ button {
     margin: 30px;
     row-gap: 30px;
   }
+  
   .background {
     display: flex;
     justify-content: center;
   }
+
   .background-shape {
     display: flex;
     position: absolute;
     margin-left: 153px;
     margin-top: 30px;
   }
+
   .contact-text {
     display: flex;
     position: absolute;
@@ -757,21 +760,25 @@ button {
     padding-top: 30px;
     width: 580px;
   }
+
   .contact-text p {
     color: rgb(214, 220, 229);
     font-size: 23px;
     margin-top: -20px;
     line-height: 25px;
   }
+
   .contact-text h2 {
     color: rgb(255, 255, 255);
     font-size: 40px;
   }
+
   .form {
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .email {
     text-indent: 20px;
     font-family: "Poppins", sans-serif;
@@ -781,6 +788,7 @@ button {
     width: 500px;
     border: 2px solid rgb(96, 112, 255);
   }
+
   .name {
     text-indent: 20px;
     font-family: "Poppins", sans-serif;
@@ -790,6 +798,7 @@ button {
     width: 500px;
     border: 2px solid rgb(96, 112, 255);
   }
+
   .message {
     padding-top: 20px;
     text-indent: 20px;
@@ -799,6 +808,7 @@ button {
     width: 500px;
     border: 1px solid rgb(96, 112, 255);
   }
+
   .btn-submit {
     margin-left: 180px;
     margin-top: 10px;
@@ -815,6 +825,7 @@ button {
     border: 2px solid rgb(96, 112, 255);
     color: rgb(72, 87, 223);
   }
+
   .btn-submit:hover {
     background-color: #6070ff;
     color: #fff;
