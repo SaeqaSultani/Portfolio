@@ -110,9 +110,7 @@
 .icon {
   list-style-type: none;
   padding: 10px;
-} 
-
-/* ############################################# work section ############################################################################# */
+}
 
 .works {
   display: grid;
@@ -209,13 +207,10 @@ button {
 
 .btn {
   background-color: white; 
-  color: black; 
   border: 1.6px solid rgb(96, 112, 255);
   border-radius: 8px;
   color: rgb(96, 112, 255);
 }
-
-/* ################################################# about section ######################################################################## */
 
 .about {
   display: grid;
@@ -260,7 +255,7 @@ button {
 .pro {
   margin-left: -80px;
   display: flex;
-  background-color:rgb(246, 246, 246); ;
+  background-color:rgb(246, 246, 246);
   padding: 6px 18px;
   font-size: 16px;
   height: 45px;
@@ -394,10 +389,9 @@ button {
   background-color: #6070ff;
   color: #fff;
 }
-   
+
 /* for desctop version */
 @media only screen and (min-width: 768px) {
-
   .mob {
     display: none;
   }
@@ -413,14 +407,14 @@ button {
     margin: 30px;
     row-gap: 30px;
   }
-  
+
   .home-page {
     display: grid;
     justify-content: center;
     align-items: center;
     row-gap: 30px;
   }
-  
+
   .nav {
     display: flex;
     justify-content: space-between;
