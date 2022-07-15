@@ -297,9 +297,6 @@ button {
   margin-top: 10px;
 }
 
-  /* ########################################### contact form ##################################################################################### */
-
-
 .contact-form {
   display: grid;
   justify-content: center;
@@ -307,19 +304,19 @@ button {
   margin: 30px;
   row-gap: 30px;
 }
-  
+
 .background {
   display: flex;
   justify-content: center;
 }
-  
+
 .background-shape {
   display: flex;
   position: absolute;
   margin-left: 153px;
   margin-top: 30px;
 }
-  
+
 .contact-text {
   display: flex;
   position: absolute;
@@ -332,7 +329,7 @@ button {
   width: 380px;
   padding-top: 30px;
 }
-  
+
 .contact-text p {
   color: rgb(214, 220, 229);
   font-size: 23px;
@@ -341,17 +338,17 @@ button {
   margin-left: 23px;
   margin-right: 23px;
 }
-  
+
 .contact-text h2 {
   color: rgb(255, 255, 255);
-  font-size: 40px; 
+  font-size: 40px;
 }
-  
+
 .form {
   display: flex;
   justify-content: flex-start;
 }
-  
+
 .email {
   text-indent: 20px;
   font-family: "Poppins", sans-serif;
@@ -361,7 +358,7 @@ button {
   width: 328px;
   border: 2px solid rgb(96, 112, 255);
 }
-  
+
 .name {
   text-indent: 20px;
   font-family: "Poppins", sans-serif;
@@ -371,7 +368,7 @@ button {
   width: 328px;
   border: 2px solid rgb(96, 112, 255);
 }
-  
+
 .message {
   padding-top: 20px;
   text-indent: 20px;
@@ -381,11 +378,10 @@ button {
   width: 328px;
   border: 2px solid rgb(96, 112, 255);
 }
-  
+
 .btn-submit {
   margin-right: 180px;
   margin-top: 10px;
-  background-color: #4CAF50;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -398,14 +394,12 @@ button {
   border: 2px solid rgb(96, 112, 255);
   color: rgb(72, 87, 223);
 }
-  
+
 .btn-submit:hover {
   background-color: #6070ff;
   color: #fff;
-} 
+}
    
-  
-
 /* for desctop version */
 @media only screen and (min-width: 768px) {
 
@@ -414,10 +408,6 @@ button {
   }
 
   .dec {
-    display: block;
-  }
-
-  .internal-link {
     display: block;
   }
 
@@ -449,6 +439,7 @@ button {
     display: flex;
     justify-content: space-between;
     min-width: 190px;
+    display: block;
   }
 
   .internal-link li a {
