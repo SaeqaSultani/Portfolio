@@ -62,10 +62,6 @@
   display: none;
 }
 
-.internal-link {
-  display: none;
-}
-
 .title-home-page {
   font-family: Poppins, sans-serif;
   font-weight: bold;
@@ -171,7 +167,6 @@ li {
   display: flex;
   justify-content: flex-start;
   width: 300px;
-  
 }
 
 .button-list ul {
@@ -287,7 +282,6 @@ button {
   align-items: center;
   padding-left: 0;
   color: aqua;
-
 }
 
 .icon {
@@ -576,11 +570,9 @@ button {
     display: block;
   }
   
-
   .br {
     display: none;
   }
-  
   
   .list ul {
     display: flex;
@@ -610,7 +602,6 @@ button {
     display: flex;
     justify-content: flex-start;
     width: 500px;
-    
   }
   
   .button-list ul {
@@ -743,7 +734,6 @@ button {
     align-items: center;
     padding-left: 0;
     color: aqua;
-  
   }
   
   .icon {
@@ -803,7 +793,6 @@ button {
   .contact-text h2 {
     color: rgb(255, 255, 255);
     font-size: 40px;
-   
   }
   
   .form {
@@ -864,5 +853,5 @@ button {
     background-color: #6070ff;
     color: #fff;
   } 
-  
+
 }
