@@ -450,10 +450,7 @@ button {
     justify-content: space-between;
     min-width: 190px;
   }
-  
-  .internal-link li {
-    list-style: none;
-  }
+
   
   .internal-link li a {
     text-decoration: none;
@@ -721,7 +718,6 @@ button {
     margin-top: 10px;
   }
 
-  /* ########################################### contact form ##################################################################################### */
   .contact-form {
     display: grid;
     justify-content: center;
