@@ -798,7 +798,7 @@ button {
     background-color: #6070ff;
     color: #fff;
   }
-  .dec :hover {
+  .dec:hover {
     transform: scale(1.1);
   }
 }
