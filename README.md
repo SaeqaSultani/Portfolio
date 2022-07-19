@@ -6,7 +6,7 @@ https://saeqasultani.github.io/Portfolio-Project/
 
 
 # Built With
-- Major languages
+- HTML and CSS
 - Frameworks
 - Technologies used
 
