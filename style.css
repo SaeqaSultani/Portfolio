@@ -148,14 +148,14 @@
 li {
   list-style-type: none;
   padding: 5px;
-  color: rgb(172, 179, 192);
+  color: rgb(109, 109, 109);
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 12px;
 }
 
 .CANOPY {
-  color: rgb(52, 69, 99);
+  color: rgb(23, 30, 43);
 }
 
 .text p {
@@ -175,7 +175,7 @@ li {
 }
 
 .button-list ul li {
-  color: rgb(96, 112, 255);
+  color: rgb(10, 23, 145);
   padding: 10px;
   border-radius: 6px;
   background-color: rgb(235, 235, 255);
@@ -183,7 +183,7 @@ li {
 }
 
 a {
-  color: rgb(96, 112, 255);
+  color: rgb(10, 23, 145);
   text-decoration: none;
   font-weight: bold;
   font-size: 10px;
@@ -207,9 +207,9 @@ button {
 
 .btn {
   background-color: white;
-  border: 1.6px solid rgb(96, 112, 255);
+  border: 1.6px solid rgb(10, 23, 145);
   border-radius: 8px;
-  color: rgb(96, 112, 255);
+  color: rgb(10, 23, 145);
 }
 
 .about {
@@ -329,7 +329,7 @@ button {
   margin-right: 23px;
 }
 
-.contact-text h2 {
+.contact-text h3 {
   color: rgb(255, 255, 255);
   font-size: 40px;
 }
@@ -736,7 +736,7 @@ button {
     line-height: 25px;
   }
 
-  .contact-text h2 {
+  .contact-text h3 {
     color: rgb(255, 255, 255);
     font-size: 40px;
   }
