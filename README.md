@@ -3,9 +3,15 @@ this is a portfolio project that the purpose of this project is to understand ho
 use JavaScript to manipulate DOM elements,use JavaScript events.
 
 # Built With
-- HTML and CSS
+- HTML & CSS and JavaScript
 - Frameworks
 - Technologies used
+
+
+# Live Demo :)
+
+
+[Live Demo Link](https://saeqasultani.github.io/Portfolio-Project/)
 
 # Authors
 
