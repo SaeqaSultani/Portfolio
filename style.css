@@ -90,10 +90,10 @@ a {
   width: 100%;
   margin: 0;
   padding-left: 40px !important;
-  background-color: rgb(16, 37, 222)!important;
+  background-color: rgb(16, 37, 222) !important;
 }
 
-.line{
+.line {
   background-color: rgb(13, 21, 30);
   height: 3px;
   width: 100px;
