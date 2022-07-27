@@ -20,7 +20,7 @@ LinkedIn: [SaeqaSultani](https://www.linkedin.com/in/saeqa-sultani-b41493187/)
 # 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/SaeqaSultani/SaeqaSultani-Hello-Microvers-Project-PR/issues).
+Feel free to check the [issues page](https://github.com/SaeqaSultani/Portfolio-Project/issues).
 
 # Show your support
 Give a ⭐️ if you like this project!
@@ -30,4 +30,4 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 # 📝 License
-This project is [MIT](https://github.com/SaeqaSultani/SaeqaSultani-Hello-Microvers-Project-PR/blob/master/MIT.md) licensed.
+This project is [MIT](https://github.com/SaeqaSultani/Portfolio-Project/blob/mobile_menu/MIT.md) licensed.
