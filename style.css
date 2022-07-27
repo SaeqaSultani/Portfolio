@@ -1,15 +1,13 @@
+.body {
+  position: fixed;
+  width: 100%;
+}
+
 .container {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  margin: 30px;
   row-gap: 30px;
 }
 
 .home-page {
-  display: grid;
-  justify-content: center;
-  align-items: center;
   row-gap: 30px;
 }
 
@@ -58,6 +56,19 @@ a {
   color: #fff;
   display: block;
   transition: 0.3s;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  background-color: rgb(13, 21, 30);
+  height: 3px;
+  width: 100px;
+  margin-top: 310px;
+  margin-left: 80px;
+  position: fixed;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .internal-link-mob {
@@ -73,7 +84,6 @@ a {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  opacity: 0.7;
   text-decoration: none;
 }
 
@@ -89,16 +99,9 @@ a {
 .internal-link-mobActive {
   width: 100%;
   margin: 0;
-  padding-left: 40px !important;
-  background-color: rgb(16, 37, 222) !important;
-}
-
-.line {
-  background-color: rgb(13, 21, 30);
-  height: 3px;
-  width: 100px;
-  margin-left: 100px;
-  margin-top: 300px;
+  padding-left: 40px;
+  background-color: rgb(16, 37, 222, 0.6);
+  backdrop-filter: blur(7px);
 }
 
 .title {
@@ -196,7 +199,8 @@ a {
 }
 
 .works {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 30px;
@@ -278,7 +282,7 @@ button {
 }
 
 .about {
-  display: grid;
+  /* display: grid; */
   justify-content: center;
   align-items: center;
   margin: 30px;
@@ -353,10 +357,6 @@ button {
 }
 
 .contact-form {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  margin: 30px;
   row-gap: 30px;
 }
 
