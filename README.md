@@ -1,9 +1,6 @@
 
-this is a portfolio project that the purpose of this project is to understand how to create UIs adaptable to different screen sizes using media queries and understand how to parse a Figma design to create a UI.
-
-the site is published at :
-https://saeqasultani.github.io/Portfolio-Project/
-
+this is a portfolio project that the purpose of this project is to understand how to use basic JavaScript syntax,
+use JavaScript to manipulate DOM elements,use JavaScript events.
 
 # Built With
 - HTML and CSS
