@@ -1,4 +1,3 @@
-
 this is a portfolio project that the purpose of this project is to understand how to use basic JavaScript syntax,
 use JavaScript to manipulate DOM elements,use JavaScript events.and also in this project we use form  JavaScript + HTML + CSS linters for check the linters errors ,.eslintrc.json file for chech the javascript errors locally,.stylelintrc.json file for check the css errors locally and .hintrc file for check the html errors locally.
 
