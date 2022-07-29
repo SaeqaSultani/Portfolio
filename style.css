@@ -399,7 +399,7 @@ button {
   font-size: 40px;
 }
 
-.form {
+.form-contact {
   display: flex;
   justify-content: flex-start;
 }
@@ -453,6 +453,10 @@ button {
 .btn-submit:hover {
   background-color: #6070ff;
   color: #fff;
+}
+
+.validationMessage{
+  color: rgb(238, 255, 0);
 }
 
 /* for desctop version */
@@ -818,7 +822,7 @@ button {
     font-size: 40px;
   }
 
-  .form {
+  .form-contact {
     display: flex;
     justify-content: center;
     align-items: center;
