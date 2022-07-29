@@ -316,13 +316,12 @@
                     If you have an application you are interested in developing, a feature that you need
                     built or a project that needs coding. I'd love to help with it.
                 </p>
-                <div class="form">
-                    <form action="https://formspree.io/f/mayvgvny" method="POST">
-                        <input class="name" type="text" name="client-name" required placeholder="Enter your name here"
-                            maxlength="30"><br>
-                        <input class="email" type="email" placeholder="Enter your email here" required name="mail"><br>
-                        <textarea class="message" name="client-message" required placeholder="Write your message here"
-                            maxlength="500"></textarea>
+                <div class="form-contact">
+                    <form  class="form" action="https://formspree.io/f/mayvgvny" method="POST">
+                        <div class="validationMessage"><p></p></div>
+                        <input class="name" type="text" name="name"  placeholder="Enter your name here"  maxlength="30" required><br>
+                        <input class="email" type="email" placeholder="Enter your email here"  name="email" required><br>
+                        <textarea class="message" name="client-message"  placeholder="Write your message here" maxlength="500" required></textarea>
                         <input type="submit" name="Get-it-Touch-btn" value="Get it Touch" class="btn-submit">
                     </form>
                 </div>
@@ -332,6 +331,8 @@
 
 
     <script src="main.js"></script>
+    <script src="form-validation"></script>
+    <script src="local-storage.js"></script>
 
 </body>
 
