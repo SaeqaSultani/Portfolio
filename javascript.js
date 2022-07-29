@@ -81,16 +81,4 @@ function seeProject(){
 
   }
 
-  
-
-  
-  
-  
-
-
-
-
-
-
 }
-/* eslint-enable */
