@@ -6,6 +6,8 @@ body {
   position: fixed;
   top: 0;
   bottom: 0;
+  overflow-y: scroll;
+  padding-top: 50px;
 }
 
 .project_span {
@@ -17,9 +19,7 @@ body {
 
 .project_span_desktop {
   background-color: #c1c7d0;
-
-  /* height: 100%; */
-  background-image: url('./image/fade_back.svg');
+  background-image: url('./image/Headerbg.png');
   background-repeat: no-repeat;
 }
 
@@ -31,24 +31,13 @@ body {
 }
 
 .project-info-desktop {
-  /* display: flex; */
-
-  /* flex-direction: column; */
-
-  /* grid-template-columns: auto; */
-
-  /* background-color: #0018f0; */
-}
-
-.project-button1 {
-  /* display: none; */
+  display: flex;
+  overflow-y: scroll;
 }
 
 .cross {
   float: right;
   margin-right: 20px;
-
-  /* padding-top: 50px; */
   display: none;
 }
 
@@ -225,8 +214,6 @@ body {
   font-family: Popinns-light, Arial, Helvetica, sans-serif;
   margin: 0 24px 0 24px;
   margin-top: 0;
-
-  /* width: 327px; */
   height: 150px;
   font-size: 16px;
   font-weight: 400;
@@ -257,22 +244,16 @@ body {
 .work_section {
   display: grid;
   grid-template-columns: auto;
-
-  /* grid-template-columns: auto; */
-
-  /* flex-direction: column; */
   justify-content: space-between;
   margin-top: 26px;
 }
 
 .project {
-  /* padding-top: 80px; */
   padding-left: 24px;
   padding-right: 24px;
 }
 
 .project1 {
-  /* display: flex; */
   flex-direction: column;
   align-items: flex-end;
   border-radius: 16px;
@@ -372,13 +353,6 @@ li[id^='can'] {
   display: none;
 }
 
-#p1,
-#p2,
-#p3,
-#p4 {
-  /* padding-top: 88px; */
-}
-
 /* About Myself and Contact Me flexbox */
 .am-contact {
   display: flex;
@@ -393,8 +367,6 @@ li[id^='can'] {
   height: 1263px;
   border-radius: 0 100px 0 0;
   background-color: #fff;
-
-  /* padding: 114px 24px 0 24px; */
 }
 
 .am-menu {
@@ -492,8 +464,6 @@ li[id^='can'] {
   font-size: 40px;
   font-weight: 700;
   color: #172b4d;
-
-  /* line-height: 52px; */
   padding: 114px 0 12px 24px;
   height: 101px;
   text-align: left;
@@ -607,6 +577,11 @@ li[id^='can'] {
   width: 311px;
 }
 
+.partation {
+  display: flex;
+  flex-direction: row;
+}
+
 @media screen and (min-width: 768px) {
   .body {
     background-repeat: no-repeat;
@@ -660,16 +635,8 @@ li[id^='can'] {
     margin-right: 154px;
   }
 
-  .work_section {
-    /* width: 100%; */
-
-    /* margin-top: 60px; */
-  }
-
   .project {
     padding: 40px 142px 40px 142px;
-
-    /* height: 500px; */
   }
 
   .profile_snapshoot {
@@ -682,18 +649,12 @@ li[id^='can'] {
 
   .project1 {
     display: flex;
-
-    /* padding-top: 40px; */
-
-    /* align-items: flex-end; */
   }
 
   .project-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 17px 17px 17px 17px;
-
-    /* justify-content: ; */
   }
 
   .project-content {

@@ -9,6 +9,9 @@ function menuChange(e) {
   e.classList.toggle('change');
   // e.preventDefault();
 
+  const main = document.querySelector('.main');
+  // main.classList.toggle('fixed');
+
   // Changing the background of body class
   const body = document.querySelector('.body');
   body.classList.toggle('bodyTrans');
@@ -76,9 +79,32 @@ function seeProject(){
     document.querySelector('.see-live-button').style.display = 'block';
     document.querySelector('.see-source-button').style.display = 'block';
     
-
+    //Show the other buttons
     document.querySelector('#grb1','#grb2','#grb3','#grb4').style.display = 'block';
+
+    //show the image 2 and block image 1
+    document.querySelector('#pr1Image').style.display = 'none';
+    document.querySelector('#prImage1').style.display = 'block';
+
+    let projectInfo = document.querySelector('.project-info');
+    projectInfo.classList.remove('project-info');
+
+
+
+    
 
   }
 
+  
+
+  
+  
+  
+
+
+
+
+
+
 }
+/* eslint-enable */
