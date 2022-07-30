@@ -430,11 +430,6 @@ hr {
   line-height: 52px;
 }
 
-.contact-backgrounds p {
-  font-size: 20px;
-  line-height: 28px;
-}
-
 .contact-banner {
   display: flex;
   flex-direction: column;
@@ -506,10 +501,6 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #6070ff;
   color: white;
-}
-
-.inputt {
-  padding-bottom: 10px;
 }
 
 .inputt > input {
@@ -692,9 +683,7 @@ input[type="submit"]:hover {
   .contact button {
     width: fit-content;
   }
-
-  .tar {
-    margin-bottom: 30px;
+  
   }
 
   .Mobile-banners:hover {
