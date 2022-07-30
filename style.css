@@ -683,8 +683,6 @@ input[type="submit"]:hover {
   .contact button {
     width: fit-content;
   }
-  
-  }
 
   .Mobile-banners:hover {
     transform: scale(0.95);
