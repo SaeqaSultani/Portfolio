@@ -1,328 +1,397 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,600&display=swap');
-    </style>
-    <script src="./javascript.js"></script>
-    <title>Saeqa Sultani Portfolio home page</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/0728e06898.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="popup.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <title>Saeqa Sultani Portfolio home page</title>
 </head>
+
 <body>
+
+  <header>
     <div class="container">
-        <div class="main"> 
-            <header class="header">
-                    <div class="header-logo">
-                            <a class="header-logo">
-                                Mylogo
-                            </a>
-                    </div>
-                    <div class="navbar" id="nav1" onclick="menuChange(this)">
-                        <div class="bar1">Portfolio</div>
-                        <div class="bar2">About</div>
-                        <div class="bar3">Contact</div>
-                    </div>
-                    <div class="navbar" id="nav2">
-                        <a href="#p1"><div class="bar1" onclick="window.close()">Portfolio</div></a>
-                        <a href="#p5"><div class="bar2">About</div></a>
-                        <a href="#p6"><div class="bar3">Contact</div></a>
-                    </div>
-            </header>
-            <section class="body">
-                <div class="onclick">
-                    <a href="#p1"><h5>Portfolio</h5></a>
-                    <a href="#p5"><h5>About</h5></a>
-                    <a href="#p6"><h5>Contact</h5></a>
-                </div>
-                <div class="body-content">
-                    <div class="name">
-                        <h1>I’m Saeqa</h1>
-                        <h2>Glad to see you!</h2>
-                    </div>
-                    <div class="description">
-                        I’m a software developer! I can help you build a product , feature or website Look through 
-                            some of my work and experience! If you like what you see and have a project you need coded, 
-                            don’t hestiate to contact me.
-                    </div>
-                    <h3 class="contact">LET'S CONNECT</h3>
-                    <div class="connect-logo">
-                        <div class="logo">
-                            <ul class="logo-div">
-                                <li><a href=""><img src="./image/twiter.svg" alt="twiter logo"></a></li>
-                                <li><a href=""><img src="./image/Vector.png" alt="linkdin logo"></a></li>
-                                <li><a href=""><img src="./image/M.svg" alt="Medium logo"></a></li>
-                                <li><a href=""><img src="./image/Vector(3).svg" alt="gitHub logo"></a></li>
-                                <li><a href=""><img src="./image/Vector(4).svg" alt="angellist logo"></a></li>
-                            </ul>
-                        </div>
-                    </div>    
-                </div>
-            </section>
-        </div>
-        <section class="work_section">
-            <div class="project" id="p1">
-                <div class="project1">
-                    <div class="cross" onclick="window.close()">
-                        <img class="close" src="./image/cross.png" alt="imgae of close logo" >
-                    </div>
-                    <div class="project-info">
-                        <img class="profile_snapshoot" id="pr1Image" src="./image/SnapshootPortfolio.png" alt="Profile Snapshoot 1">
-                        <div class="project-content">
-                            <h2 class="project1-h1">Tonic</h2>
-                            <ul class="project1-ul">
-                                <li id="canopy1">CANOPY</li>
-                                <li>Back End Dev</li>
-                                <li>2022</li>
-                            </ul>
-                            <img class="profile_snapshoot" id="prImage1" src="./image/snap_onclick.svg" alt="Profile Snapshoot 1">
-                            <p class="project1-para">
-                                A daily selection of privately personalized reads; no accounts or sign-ups required.
-                            </p>
-                            <div class="project-button">
-                                <ul>
-                                    <li><button type="button">html</button></li>
-                                    <li><button type="button">css</button></li>
-                                    <li><button type="button">JavaScript</button></li>
-                                </ul>
-                            </div>
-                            <div class="project-button" id="grb1">
-                                <ul>
-                                    <li><button type="button">gitHub</button></li>
-                                    <li><button type="button">ruby</button></li>
-                                    <li><button type="button">Bootstrap</button></li>
-                                </ul>
-                            </div>
-                            <div class="see-project">
-                                <button type="button" onclick="seeProject(this)" class="see-project-button">See project</button>
-                                <button type="button" class="see-live-button">
-                                    See Live
-                                    <img src="./image/live.png" alt="">
-                                </button>
-                                <button type="button" class="see-source-button">
-                                    See Source
-                                    <img src="./image/source.png" alt="">
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-            <div class="project" id="p2">
-                <div class="project1">
-                    <div class="cross" onclick="window.close()">
-                        <img class="close" src="./image/cross.png" alt="imgae of close logo" >
-                    </div>
-                    <div class="project-info">
-                        <img class="profile_snapshoot" id="pr1Image2" src="./image/SnapshootPortfolio2.png" alt="Profile Snapshoot 1">
-                        <div class="project-content">
-                            <h2 class="project1-h1">Tonic</h2>
-                            <ul class="project1-ul">
-                                <li id="canopy2">CANOPY</li>
-                                <li>Back End Dev</li>
-                                <li>2022</li>
-                            </ul>
-                            <img class="profile_snapshoot" id="prImage2" src="./image/SnapshootPortfolio.png" alt="Profile Snapshoot 1">
-                            <p class="project1-para">
-                                A daily selection of privately personalized reads; no accounts or sign-ups required.
-                            </p>
-                            <div class="project-button">
-                                <ul>
-                                    <li><button type="button">html</button></li>
-                                    <li><button type="button">css</button></li>
-                                    <li><button type="button">JavaScript</button></li>
-                                </ul>
-                            </div>
-                            <div class="project-button" id="grb2">
-                                <ul>
-                                    <li><button type="button">gitHub</button></li>
-                                    <li><button type="button">ruby</button></li>
-                                    <li><button type="button">Bootstrap</button></li>
-                                </ul>
-                            </div>
-                            <div class="see-project">
-                                <button type="button" onclick="seeProject(this)" class="see-project-button">See project</button>
-                                <button type="button" class="see-live-button">
-                                    See Live
-                                    <img src="./image/live.png" alt="">
-                                </button>
-                                <button type="button" class="see-source-button">
-                                    See Source
-                                    <img src="./image/source.png" alt="">
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-            <div class="project" id="p3">
-                <div class="project1">
-                    <div class="cross" onclick="window.close()">
-                        <img class="close" src="./image/cross.png" alt="imgae of close logo" >
-                    </div>
-                    <div class="project-info">
-                        <img class="profile_snapshoot" id="pr1Image3" src="./image/SnapshootPortfolio3.png" alt="Profile Snapshoot 1">
-                        <div class="project-content">
-                            <h2 class="project1-h1">Tonic</h2>
-                            <ul class="project1-ul">
-                                <li id="canopy3">CANOPY</li>
-                                <li>Back End Dev</li>
-                                <li>2022</li>
-                            </ul>
-                            <img class="profile_snapshoot" id="prImage3" src="./image/SnapshootPortfolio.png" alt="Profile Snapshoot 1">
-                            <p class="project1-para">
-                                A daily selection of privately personalized reads; no accounts or sign-ups required.
-                            </p>
-                            <div class="project-button">
-                                <ul>
-                                    <li><button type="button">html</button></li>
-                                    <li><button type="button">css</button></li>
-                                    <li><button type="button">JavaScript</button></li>
-                                </ul>
-                            </div>
-                            <div class="project-button" id="grb3">
-                                <ul>
-                                    <li><button type="button">gitHub</button></li>
-                                    <li><button type="button">ruby</button></li>
-                                    <li><button type="button">Bootstrap</button></li>
-                                </ul>
-                            </div>
-                            <div class="see-project">
-                                <button type="button" onclick="seeProject(this)" class="see-project-button">See project</button>
-                                <button type="button" class="see-live-button">
-                                    See Live
-                                    <img src="./image/live.png" alt="">
-                                </button>
-                                <button type="button" class="see-source-button">
-                                    See Source
-                                    <img src="./image/source.png" alt="">
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-            <div class="project" id="p4">
-                <div class="project1">
-                    <div class="cross" onclick="window.close()">
-                        <img class="close" src="./image/cross.png" alt="imgae of close logo" >
-                    </div>
-                    <div class="project-info">
-                        <img class="profile_snapshoot" id="pr1Image4" src="./image/SnapshootPortfolio4.png" alt="Profile Snapshoot 1">
-                        <div class="project-content">
-                            <h2 class="project1-h1">Tonic</h2>
-                            <ul class="project1-ul">
-                                <li id="canopy4">CANOPY</li>
-                                <li>Back End Dev</li>
-                                <li>2022</li>
-                            </ul>
-                            <img class="profile_snapshoot" id="prImage4" src="./image/SnapshootPortfolio.png" alt="Profile Snapshoot 1">
-                            <p class="project1-para">
-                                A daily selection of privately personalized reads; no accounts or sign-ups required.
-                            </p>
-                            <div class="project-button">
-                                <ul>
-                                    <li><button type="button">html</button></li>
-                                    <li><button type="button">css</button></li>
-                                    <li><button type="button">JavaScript</button></li>
-                                </ul>
-                            </div>
-                            <div class="see-project">
-                                <button type="button" onclick="seeProject(this)" class="see-project-button">See project</button>
-                                <button type="button" class="see-live-button">
-                                    See Live
-                                    <img src="./image/live.png" alt="">
-                                </button>
-                                <button type="button" class="see-source-button">
-                                    See Source
-                                    <img src="./image/source.png" alt="">
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-            <section class="am-contact">
-                <div class="about_myself" id="p5">
-                    <div class="am-main">
-                        <div class="am-content">
-                            <h2 class="am_heading">About <br> Myself</h2>
-                            <div class="am_description">
-                                <div>
-                                    I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
-                                </div>
-                            </div>
-                            <div class="contact">
-                                <h3 class="am-connect">LET'S CONNECT</h3>
-                            </div>
-                            <div class="connect-logo">
-                                <div class="logo">
-                                    <ul class="amlogo-div">
-                                        <li><a href=""><img src="./image/twiter.svg" alt="twiter logo"></a></li>
-                                        <li><a href=""><img src="./image/Vector.png" alt="linkdin logo"></a></li>
-                                        <li><a href=""><img src="./image/M.svg" alt="Medium logo"></a></li>
-                                        <li><a href=""><img src="./image/Vector(3).svg" alt="gitHub logo"></a></li>
-                                        <li><a href=""><img src="./image/Vector(4).svg" alt="angellist logo"></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="see-project">
-                                <button type="button">Get my resume</button>
-                            </div>
-                        </div>
-                        <div class="am-menu">
-                            <div class="languages">
-                                <div class="lang-menu">
-                                    <div class="lan-text">Languages</div>
-                                    <div class="lang-logo"><img src="./image/down_arrow.png" alt="down arrow"></div>
-                                </div>
-                                <div class="lang-button">
-                                    <div class="javascript">
-                                        <div class="ln-image"><img src="./image/javascript.png" alt="javascript logo"></div>
-                                        <div class="ln-text">JavaScript</div>
-                                    </div>
-                                    <div class="html">
-                                        <div class="ln-image"><img src="./image/html.png" alt="html logo"></div>
-                                        <div class="ln-text">HTML</div>
-                                    </div>
-                                    <div class="css">
-                                        <div class="ln-image"><img src="./image/css.png" alt="css logo"></div>
-                                        <div class="ln-text">CSS</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="frame">
-                                    <div>Frameworks</div>
-                                    <div><img src="./image/right_arrow.png" alt="right arrow"></div>
-                            </div>
-                            <div class="skills">
-                                    <div>Skills</div>
-                                    <div><img src="./image/right_arrow.png" alt="right arrow"></div>
-                            </div>
-                        </div>
-                    </div>
-                        <div class="am-menu-contact">
-                                    
-                            <div class="contact_me" id="p6">
-                                <h2>Contact me</h2>
-                                <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-                                <form action="https://formspree.io/f/mbjwvwle" class="contact-form" method="post">
-                                    <ul class="contact-ul">
-                                        <li><input type="text" id="name" required maxlength="30" placeholder="Full Name"></li>
-                                        <li><input type="email" id="email" required placeholder="Email"></li>
-                                        <li><textarea name="text-box" id="text-box" placeholder="Enter text here" required maxlength="500"></textarea></li>
-                                       <li><button  type="submit">Get in Touch</button></li>
-                                    </ul>
-                                </form>
-                               <hr class="end-line">
-                            </div>
-                        </div>
-                </div>>
-            </section>
-        </section>
+      <a href="#" class="my-logo">Mylogo</a>
+      <nav class="dropdown">
+        <img src="Images&Icons/Enabled.png"  class="mob-menu" alt="navbar icon">
+        <ul class="mobileNav">
+          <li class="menuMobile closeBtn"><a href="javascript:void(0)" class="link">×</a></li>
+          <li class="menuMobile"><a href="#works" class="link">Portfolio</a></li>
+          <li class="menuMobile"><a href="#about" class="link">About</a></li>
+          <li class="menuMobile"><a href="#contact" class="link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <nav class="desktop-nav">
+        <ul class="navList">
+          <li class="menuDesk"><a href="#works" class="menulink">Portfolio</a></li>
+          <li class="menuDesk"><a href="#about">About</a></li>
+          <li class="menuDesk"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
+  </header>
+
+  <main class="main">
+    
+    <section class="banner">
+      <div class="fit-background">
+        <div class="banner-containers">
+          <div class="intro-text">
+            <h1>
+              I'm Saeqa <br>
+              Glad to see
+              you!
+            </h1>
+            <p>
+              i'm software developer! i can help you build a product, feature or
+              website look through some of my work and experience! if you like
+              what you see and have a project you need coded, don't hesitate to
+              contact me.
+            </p>
+          </div>
+          <div class="contact">
+            <a class="connect" href="#">Let's Connect</a>
+            <ul>
+              <li>
+                <a href="#"><span class="icons"><img src="Images&Icons/twitter.png" alt="" /></span></a>
+              </li>
+              <li>
+                <a href="#"><span class="icons"><img src="Images&Icons/Vector.png" alt="" /></span></a>
+              </li>
+              <li>
+                <a href="#"><span class="icons"><img src="Images&Icons/github).png" alt="" /></span></a>
+              </li>
+              <li>
+                <a href="#"><span class="icons"><img src="Images&Icons/yeah.png" alt="" /></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="works">
+
+      <div class="model" id="model">
+        <div class="model-container">
+          <div class="model-headline">
+            <h2 class="tonic">Tarik</h2>
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="desc-list">
+            <ul>
+              <li class="canopy-model">CANAPY</li>
+              <li>
+                <a href=""><img src="Images&Icons/Counter.png" alt="" /></a>
+              </li>
+              <li>Back End Dev</li>
+              <li>
+                <a href=""><img src="Images&Icons/Counter.png" alt="" /></a>
+              </li>
+              <li class="year-model">2022</li>
+            </ul>
+          </div>
+          <div class="image-overflow">
+            <img class="mobile-banners-model" src="Images&Icons/PortoflioCard2/SnapshootPortfolio.svg" alt="">
+          </div>
+          <img class="work-banners-model" src="Images&Icons/SnapshootPortfolio.png" alt="Portfolio image" />
+          <div class="parlist">
+
+            <p class="descriptionist">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Voluptatibus id deserunt deleniti quia aliquam earum amet inventore magnam!
+
+            </p>
+            <div class="lister">
+
+              <ul class="button-list">
+                <li><a href="">HTML</a></li>
+                <li><a href="">CSS</a></li>
+                <li><a href="">JAVASCRIPT</a></li>
+              </ul>
+
+
+
+              <div class="btn">
+                <button class="dogWater" type="button">See live</button>    
+                <button class="catWater" type="button">See Source</button>  
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="Projects  foi1">
+        <img class="Mobile-banners" src="Images&Icons/PortoflioCard2/SnapshootPortfolio.svg" alt="">
+        <img class="work-banners" src="Images&Icons/SnapshootPortfolio.png" alt="Portfolio image" />
+        <div class="text">
+          <h2 class="Tonic">Tonic</h2>
+
+          <div class="desc-list">
+            <ul>
+              <li class="CANOPY">CANAPY</li>
+              <li>
+                <a href=""><img src="Images&Icons/Counter.png" alt="" /></a>
+              </li>
+              <li>Back End Dev</li>
+              <li>
+                <a href=""><img src="Images&Icons/Counter.png" alt="" /></a>
+              </li>
+              <li>2022</li>
+            </ul>
+          </div>
+
+          <p>
+            A daily selection of privately personalized reads; no accounts
+            sign-ups required
+          </p>
+          <div class="button-list">
+            <ul>
+              <li><a href="">HTML</a></li>
+              <li><a href="">CSS</a></li>
+              <li><a href="">JAVASCRIPT</a></li>
+            </ul>
+          </div>
+          <div class="btn">
+            <button data-work="0" class="seeProject" type="button">See project</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="Projects  foi1 foo1">
+        <img class="Mobile-banners" src="Images&Icons/PortoflioCard4/SnapshootPortfolio.svg" alt="">
+        <img class="work-banners" src="Images&Icons/work2.png" alt="" />
+        <div class="text">
+          <h2 class="Tonic">Multi-Post Stories</h2>
+          <div class="desc-list">
+            <ul>
+              <li class="CANOPY">CANAPY</li>
+              <li>
+                <a href=""><img src="Images&Icons/Counter.png" alt="" /></a>
+              </li>
+              <li>Back End Dev</li>
+              <li>
+                <a href=""><img src="Images&Icons/Counter.png" alt="" /></a>
+              </li>
+              <li>2022</li>
+            </ul>
+          </div>
+
+          <p>
+            A daily selection of privately personalized reads; no accounts
+            sign-ups required
+          </p>
+          <div class="button-list">
+            <ul>
+              <li><a href="">HTML</a></li>
+              <li><a href="">CSS</a></li>
+              <li><a href="">JAVASCRIPT</a></li>
+            </ul>
+          </div>
+          <div class="btn">
+            <button data-work="1" class="seeProject" type="button">See project</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="Projects foi1">
+        <img class="Mobile-banners" src="Images&Icons/PortoflioCard1/SnapshootPortfolio.svg" alt="">
+        <img class="work-banners" src="Images&Icons/work3.png" alt="" />
+        <div class="text">
+          <h2 class="Tonic">Tonic</h2>
+          <div class="desc-list">
+            <ul>
+              <li class="CANOPY">CANAPY</li>
+              <li>
+                <a href=""><img src="Images&Icons/Counter.png" alt="" /></a>
+              </li>
+              <li>Back End Dev</li>
+              <li>
+                <a href=""><img src="Images&Icons/Counter.png" alt="" /></a>
+              </li>
+              <li>2022</li>
+            </ul>
+          </div>
+
+          <p>
+            A daily selection of privately personalized reads; no accounts
+            sign-ups required
+          </p>
+          <div class="button-list">
+            <ul>
+              <li><a href="">HTML</a></li>
+              <li><a href="">CSS</a></li>
+              <li><a href="">JAVASCRIPT</a></li>
+            </ul>
+          </div>
+          <div class="btn">
+            <button data-work="2" class="seeProject" type="button">See project</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="Projects foi1 foo1">
+        <img class="Mobile-banners" src="Images&Icons/PortoflioCard3/SnapshootPortfolio.svg" alt="">
+        <img class="work-banners" src="Images&Icons/work4.png" alt="" />
+        <div class="text">
+          <h2 class="Tonic">Multi-post Stories</h2>
+          <div class="desc-list">
+            <ul>
+              <li class="CANOPY">CANAPY</li>
+              <li>
+                <a href=""><img src="Images&Icons/Counter.png" alt="" /></a>
+              </li>
+              <li>Back End Dev</li>
+              <li>
+                <a href=""><img src="Images&Icons/Counter.png" alt="" /></a>
+              </li>
+              <li>2022</li>
+            </ul>
+          </div>
+
+          <p>
+            A daily selection of privately personalized reads; no accounts
+            sign-ups required
+          </p>
+          <div class="button-list">
+            <ul>
+              <li><a href="">HTML</a></li>
+              <li><a href="">CSS</a></li>
+              <li><a href="">JAVASCRIPT</a></li>
+            </ul>
+          </div>
+          <div class="btn">
+            <button data-work="3" class="seeProject" type="button">See project</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="active" id="overlay"></div>
+
+    </section>
+    
+    <div id="model1">
+
+    </div>
+  
+    <section class="About" id="about">
+      <div class="containerr">
+        <div class="about-deskitop">
+          <div class="intro-text">
+            <h1>
+              About <br />
+              Myself
+            </h1>
+            <p>
+              Hello I’m a software developer! I can help you build a product ,
+              feature or website Look through some of my work and experience! If
+              you like what you see and have a project you need coded, don’t
+              hestiate to contact me.
+            </p>
+          </div>
+          <div class="contact">
+            <a class="connect" href="#">Let's Connect</a>
+            <ul>
+              <li>
+                <a href="#"><span class="icons"><img src="Images&Icons/twitter.png" alt="" /></span></a>
+              </li>
+              <li>
+                <a href="#"><span class="icons"><img src="Images&Icons/Vector.png" alt="" /></span></a>
+              </li>
+              <li>
+                <a href="#"><span class="icons"><img src="Images&Icons/github).png" alt="" /></span></a>
+              </li>
+              <li>
+                <a href="#"><span class="icons"><img src="Images&Icons/yeah.png" alt="" /></span></a>
+              </li>
+            </ul>
+
+            <button type="button">Get my resume</button>
+          </div>
+        </div>
+        <div class="languages">
+
+          <ul class="tar">
+            <li>Languages</li>
+            <li><i class="fa fa-chevron-down" aria-hidden="true"></i></li>
+          </ul>
+          <div class="lang-deskitop">
+
+            <ul class="jav bio">
+              <li><img src="Images&Icons/JavaScript.png" alt="" /></li>
+              <li><span>JavaScript</span></li>
+            </ul>
+            <ul class="bio">
+              <li><img src="Images&Icons/HTML.png" alt="" /></li>
+              <li><span>HTML</span></li>
+            </ul>
+            <ul class="bio">
+              <li><img src="Images&Icons/CSS3.png" alt="" /></li>
+              <li><span>CSS</span></li>
+            </ul>
+          </div>
+          <ul class="tar">
+            <li>Frameworks</li>
+            <li><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
+          </ul>
+          <hr />
+          <ul class="tar">
+            <li>Skills</li>
+            <li><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
+          </ul>
+          <hr />
+        </div>
+
+      </div>
+    </section>
+    <script src="popup.js"></script>
+
+
+    <section class="contact-me" id="contact">
+      <div class="contact-backgrounds">
+        <div class="contact-banner">
+          <h1>Contact me</h1>
+          <p>
+            If you have an application you are interested in developing, a
+            feature that you need built, or a project that needs coding, I’d
+            love to help with it.
+          </p>
+
+
+          <form class = "form" action="https://formspree.io/f/xdobrago" method="post">
+            <div class="inputt">
+              <p class="validationMessage"></p>
+              <input class="fullname" type="text" id="fname" name="fullname" placeholder="  Your name?" maxlength="30" required />
+            </div>
+            <div class="inputt">
+              <input class="emails" type="email" id="email" name="email" placeholder="  Your email address?" required />
+            </div>
+            <div class="inputt">
+              <textarea class="contact-message" id="msg" name="message" placeholder="  Write your message here" maxlength="500"
+                required></textarea>
+            </div>
+            <div class="inputt">
+              <input type="submit" value="Get In Touch" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="Index.js"></script>
+  <script src="form-validation.js"></script>
+  <script src="local.js"></script>
 </body>
+
 </html>
