@@ -455,8 +455,12 @@ button {
   color: #fff;
 }
 
-.validationMessage {
+.text {
   color: rgb(238, 255, 0);
+}
+
+.val-text{
+  color: yellow;
 }
 
 /* for desctop version */
