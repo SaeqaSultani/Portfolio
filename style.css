@@ -503,9 +503,20 @@ input[type="submit"]:hover {
   color: white;
 }
 
+.valid-text {
+  color: yellow;
+}
+
+/* for desctop version */
+@media only screen and (min-width: 768px) {
+  .mob {
+    display: none;
+  }
+
 .inputt > input {
   padding: 0 12px;
 }
+
 
 .desktop-nav {
   display: none;
