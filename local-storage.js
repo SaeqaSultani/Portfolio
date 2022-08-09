@@ -1,16 +1,14 @@
 const form = document.getElementById('contactForm');
 
 form.addEventListener('input', () => {
-
-    const nameFild = document.getElementById('name');
-    const emailFild = document.getElementById('email');
-    const textFild = document.getElementById('message');
-
+  const nameFild = document.getElementById('name');
+  const emailFild = document.getElementById('email');
+  const textFild = document.getElementById('message');
 
   const formElement = {
     name: nameFild.value,
     email: emailFild.value,
-    message: textFild.value
+    message: textFild.value,
   };
 
   localStorage.setItem('dataForm', JSON.stringify(formElement));
