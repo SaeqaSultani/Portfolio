@@ -279,9 +279,9 @@
                 <div class="form">
                     <form  id="contactForm" action="https://formspree.io/f/mayvgvny" method="POST">
                         <div id="valid-text"></div>
-                        <input  class="name"  type="text" name="client-name" required placeholder="Enter your name here" maxlength="30"><br>
+                        <input id="name" class="name"  type="text" name="client-name" required placeholder="Enter your name here" maxlength="30"><br>
                         <input id="email" class="email" type="email" placeholder="Enter your email here" required name="email"><br>
-                        <textarea class="message" name="client-message"  required placeholder="Write your message here" maxlength="500"></textarea>
+                        <textarea id="message"  class="message" name="client-message"  required placeholder="Write your message here" maxlength="500"></textarea>
                           <input type="submit" name="Get-it-Touch-btn" value="Get it Touch" class="btn-submit">
                           <img src="../images/bottom-icon.PNG" alt="" class="bottom-icon">
                       </form>   
@@ -291,6 +291,7 @@
     </section>
 
     <script src="form-valid.js"></script>
+    <script src="local-storage.js"></script>
 
 </body>
 
