@@ -469,6 +469,22 @@ button {
     display: none;
   }
 
+.inputt > input {
+  padding: 0 12px;
+}
+
+
+.desktop-nav {
+  display: none;
+
+}
+
+/* for desctop version */
+@media only screen and (min-width: 768px) {
+  .mob {
+    display: none;
+  }
+
   .icon-menu {
     display: none;
   }
