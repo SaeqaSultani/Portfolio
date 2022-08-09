@@ -390,6 +390,10 @@ button {
   color: #fff;
 }
 
+.valid-text {
+  color: yellow;
+}
+
 /* for desctop version */
 @media only screen and (min-width: 768px) {
   .mob {
