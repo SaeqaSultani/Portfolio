@@ -1,9 +1,6 @@
 .container {
-  display: grid;
   justify-content: center;
   align-items: center;
-  margin: 30px;
-  row-gap: 30px;
 }
 
 .home-page {
@@ -20,6 +17,67 @@
   margin-left: 40px;
   margin-right: 40px;
   margin-top: -10px;
+}
+
+.nav-mob {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.menu-links {
+  position: fixed;
+  background-color: rgba(31, 63, 193, 0.6);
+  backdrop-filter: blur(7px);
+  display: none;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+  list-style: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 11;
+}
+
+.close-link {
+  position: absolute;
+  left: 33px;
+  top: 19px;
+}
+
+a {
+  color: rgb(10, 23, 145);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 10px;
+  font-family: Poppins, sans-serif;
+  justify-content: center;
+}
+
+.menu-links a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'lato', sans-serif;
+  font-size: 25px;
+  padding-top: 15px;
+}
+
+.div-nav {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.div-nav a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'lato', sans-serif;
+  font-size: 25px;
+  padding-top: 55px;
 }
 
 .title {
@@ -180,15 +238,6 @@ li {
   border-radius: 6px;
   background-color: rgb(235, 235, 255);
   margin-right: 13px;
-}
-
-a {
-  color: rgb(10, 23, 145);
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 10px;
-  font-family: Poppins, sans-serif;
-  justify-content: center;
 }
 
 .ruby {
@@ -406,6 +455,10 @@ button {
     align-items: center;
     margin: 30px;
     row-gap: 30px;
+  }
+
+  .nav-mob {
+    display: none;
   }
 
   .home-page {
