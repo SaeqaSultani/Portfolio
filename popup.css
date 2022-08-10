@@ -1,0 +1,172 @@
+.popup {
+  box-sizing: border-box;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 200ms ease-in;
+  border: 1px solid #dfe1e6;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 30px;
+  z-index: 10;
+  width: 500px;
+  max-width: 80%;
+  font-family: 'poppins', sans-serif;
+}
+
+.popup .btn-see {
+  display: flex;
+  justify-content: space-between;
+}
+
+.model-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.model-headline {
+  display: flex;
+  justify-content: space-between;
+}
+
+.model-headline button {
+  font-size: 40px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  color: #67798e;
+}
+
+.model-headline h2 {
+  padding: 10px;
+}
+
+.popupList ul {
+  display: flex;
+  align-items: flex-start;
+  margin-top: -10px;
+  margin-left: -40px;
+}
+
+li {
+  list-style-type: none;
+  padding: 5px;
+  color: rgb(109, 109, 109);
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.CANOPY {
+  color: rgb(23, 30, 43);
+}
+
+.button-list {
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.button-list li {
+  color: rgb(10, 23, 145);
+  padding: 10px;
+  border-radius: 6px;
+  background-color: rgb(235, 235, 255);
+  margin-right: 13px;
+}
+
+.mobile-banners-model {
+  display: block;
+  width: 100%;
+}
+
+.see {
+  background-color: white;
+  border: 1.6px solid rgb(10, 23, 145);
+  border-radius: 8px;
+  color: rgb(10, 23, 145);
+  padding: 10px;
+  font-size: 15px;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(193, 199, 208, 0.678);
+  filter: blur(10px);
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .popup {
+    margin: 0 auto;
+    width: 50.75rem;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    font-size: 0.625rem;
+    height: 80vh;
+  }
+
+  .mobile-banners-model {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .work-banners-model {
+    display: none;
+  }
+
+
+  .parlist {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .lister {
+    font-size: 12px;
+  }
+
+  .model-container {
+    max-width: 60.75rem;
+  }
+
+  .image-overflow {
+    overflow: scroll;
+    height: 40vh;
+  }
+
+  .tonic {
+    display: block;
+    font-size: 40px;
+  }
+
+  .see {
+    background-color: white;
+    border: 1.6px solid rgb(10, 23, 145);
+    border-radius: 8px;
+    color: rgb(10, 23, 145);
+    padding: 8px;
+    font-size: 15px;
+  }
+
+  .see:hover {
+    background-color: rgb(10, 23, 145);
+    border: 1.6px solid rgb(10, 23, 145);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    font-size: 15px;
+  }
+}
