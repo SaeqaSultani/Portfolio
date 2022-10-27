@@ -10,7 +10,7 @@ use JavaScript to manipulate DOM elements,use JavaScript events.and also in this
 # Live Demo :)
 
 
-[Live Demo Link]( https://saeqasultani.github.io/Portfolio-Project/)
+[Live Demo Link]( https://saeqasultani.github.io/Portfolio/)
 
 # Authors
 
