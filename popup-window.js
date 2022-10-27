@@ -2,56 +2,101 @@ const work = document.getElementById('work');
 
 const arrWork = [
   {
-    title: 'Tonic',
+    title: 'Companies',
     exprience: {
-      company: 'CANOPY',
+      company: 'Companies',
       skill: 'Back End Dev',
-      year: '2015',
+      year: '2022',
     },
-    image: 'images/Snapshoot-Portfolio.svg',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    language: ['html', 'css', 'javascript'],
+    image: 'images/companies.png',
+    description: 'Companies is a React and Redux SPA application that displays interesting information about various companies in the world. It fetchs all the information that it displays using API request to a server.',
+    language: ['React', 'Redux', 'CSS'],
   },
   {
-    title: 'Multi-Post Stories',
+    title: 'Space Travellers',
     exprience: {
-      company: 'CANOPY',
+      company: 'Space Travellers',
       skill: 'Back End Dev',
-      year: '2015',
+      year: '2022',
     },
-    image: 'images/Snapshoot-Portfolio-1.svg',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    language: ['html', 'css', 'javascript'],
+    image: 'images/space-travellers.png',
+    description: 'This web application is built upon real live data from the SpaceX API. The main purpose is to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
+    language: ['React', 'Redux', 'Bootstrap'],
   },
   {
-    title: 'Tonic',
+    title: 'Math-Magicians',
     exprience: {
-      company: 'CANOPY',
+      company: 'Math-Magicians',
       skill: 'Back End Dev',
-      year: '2015',
+      year: '2022',
     },
-    image: 'images/Snapshoot-Portfolio-2.svg',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    language: ['html', 'css', 'javascript'],
+    image: 'images/math-magicians.png',
+    description: 'Math-Magicians project is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations,Read a random math-related quote.',
+    language: ['React', 'CSS', 'javaScript'],
+  },
+  {
+    title: 'Chefs pot',
+    exprience: {
+      company: 'Chefs pot',
+      skill: 'Back End Dev',
+      year: '2022',
+    },
+    image: 'images/chefs-pot.png',
+    description: 'Chefs pot is a webpack project that the purpose of this project is to understand how use JavaScript to make websites dynamic and build basic single page apps,use ES6 syntax,use ES6 modules,use callbacks and promises.',
+    language: ['HTML', 'CSS', 'javaScript'],
 
   },
   {
-    title: 'Multi-Post Stories',
-    image: './images/Snapshoot-Portfolio-3.svg',
+    title: 'Leaderboard',
     exprience: {
-      company: 'CANOPY',
+      company: 'Leaderboard',
       skill: 'Back End Dev',
-      year: '2015',
+      year: '2022',
     },
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    language: ['html', 'css', 'javascript'],
+    image: 'images/leaderboard.png',
+    description: 'this is a webpack project that the purpose of this project is to understand how use callbacks and promises, learn how to use proper ES6 syntax,use ES6 modules to write modular JavaScript and use webpack to bundle JavaScript.',
+    language: ['HTML', 'CSS', 'javaScript'],
+  },
+  {
+    title: 'To Do List',
+    exprience: {
+      company: 'To Do List',
+      skill: 'Back End Dev',
+      year: '2022',
+    },
+    image: 'images/to-do-list.png',
+    description: 'this is a To Do List project that the purpose of this project is to understand how use webpack to bundle JavaScript, learn how to use proper ES6 syntax,use ES6 modules to write modular JavaScript and build a simple HTML list of To Do tasks.',
+    language: ['HTML', 'CSS', 'javaScript'],
+
+  },
+  {
+    title: 'AwesomeBooks',
+    image: './images/awesomebooks.png',
+    exprience: {
+      company: 'AwesomeBooks',
+      skill: 'Back End Dev',
+      year: '2022',
+    },
+    description: 'this is a Awesome-books-with-ES6 project that the purpose of this project is to understand how use ES6 modules to write modular JavaScript,learn how to use proper ES6 syntax,understand improvements that ES6 brings to JavaScript,use npm as software packages system.',
+    language: ['HTML', 'CSS', 'javaScript'],
+  },
+  {
+    title: 'CapstoneProject',
+    exprience: {
+      company: 'CapstoneProject',
+      skill: 'Back End Dev',
+      year: '2022',
+    },
+    image: 'images/capstone-project.png',
+    description: 'This is my first capstone project in this capstone project I managed to build the website based on an online website for an acodemy. using Html,CSS,JavaScript and the provided design guidelines to create the website.',
+    language: ['HTML', 'CSS', 'javaScript'],
   },
 ];
 
 arrWork.forEach((element) => {
   const div = `<div class="sections">
-            <div class="image">
-                <img src="${element.image}" alt="image">
+            <div>
+                <img src="${element.image}" alt="image" class="image">
             </div>
             <div class="text">
                 <h2 class="Tonic">${element.title}</h2>
@@ -76,6 +121,7 @@ arrWork.forEach((element) => {
                         <li><a href="">${element.language[0]}</a></li>
                         <li><a href="">${element.language[1]}</a></li>
                         <li><a href="">${element.language[2]}</a></li>
+
                     </ul>
                 </div>
                 <div>
