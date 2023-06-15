@@ -445,7 +445,7 @@ button {
   height: 220px;
 }
 
-/* for desctop version */
+/*Added style for desctop version */
 @media only screen and (min-width: 768px) {
   .image {
     display: flex;
