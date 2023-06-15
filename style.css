@@ -390,7 +390,7 @@ button {
   color: #fff;
 }
 
-/* for desctop version */
+/*Added style for desctop version */
 @media only screen and (min-width: 768px) {
   .mob {
     display: none;
