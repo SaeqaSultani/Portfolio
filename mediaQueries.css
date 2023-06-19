@@ -458,8 +458,11 @@
     height: 110px;
   }
 
+  .details {
+    transition: all 1s ease;
+  }
   .details:hover {
-    transform: translateX(30px);
+    transform: translateX(50px);
   }
 
   .details-2 {
