@@ -5,172 +5,247 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaQueries.css">
+    <script src="https://kit.fontawesome.com/105bcdf182.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Saeqa Sultani Portfolio</title>
 </head>
 
-<body class="container">
-
-    <section class="home-page">
-        <header>
-          <nav class="nav">
-            <h2 class="title">My logo</h2>
-            <a class="mob" href="#"><img src="images/Union.png" alt="my logo" /></a> 
-            <ul class="internal-link">
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#"> Contact </a></li>
-             </ul>
-          </nav>
-          <nav class="nav-mob">
-            <div class="menu-links">
-                <a href="javascript:void(0)" class="close-link">×</a>
-                <div class="div-nav">
-                    <a class="nav-link" href="#work">Work</a>
-                    <a class="nav-link" href="#about">About</a>
-                    <a class="nav-link" href="#contact">Contact</a>
-                </div>
-                
-            </div>
-        </nav>
-        </header>
-        <div class="background">
-            <div class="div-text">
-              <h1 class="title-home-page">I’m Saeqa <br> Glad to see you!</h1>
-                <p class="dec-home-page">
-                    I’m a software developer! can help you build a product ,
-                    feature or website Look through some of my work and experience!
-                    If you like what you see and have a project you need coded, don’t hestiate to contact me.
-                </p>
-                <footer class="footer">
-                  <h3>LET'S CONNECT</h3>
-                  <div class="contact">
-                   <ul>
-                     <li class="icon"><a href="#" target="_blank"><img src="./images/twitter.png" alt="linked link"></a></li>
-                     <li class="icon"><a href="#" target="_blank"><img src="./images/Linkedin_icon.png" alt="github link"></a></li>
-                     <li class="icon"><a href="#" target="_blank"><img src="./images/M.png" alt="linked link"></a></li>
-                     <li class="icon"><a href="#" target="_blank"><img src="./images/github.png" alt="github link"></a></li>
-                     <li class="icon"><a href="#" target="_blank"><img src="./images/doits.png" alt="Angel list link"></a></li>
-                   </ul>
-                  </div>
-              </footer>
-            </div>
-            <img class="dec" src="images/header-bg.svg" alt="image">
-            <img class="mob" src="images/bg-imag.svg" alt="image">
-        </div>
-    </section>
-
-    <div class="works" id="work">
-
-        <div class="popup" id="popup">
-            
-          </div>
-    
-
-    </div>
-
-    <section class="about" id="about">
-        <div class="section-about">
-            <div class="text">
-                <h2>About<br> Myself</h2>   
-                <p>
-                    Hello I’m a data Scientist and software developer! I can help you build a product ,
-                   feature or website Look through some of my work and experience!
-                   If you like what you see and have a project you need coded, don’t hestiate to contact me.
-                   </p>
-                   <footer class="about-footer">
-                    <h3>LET'S CONNECT</h3>
-                    <div class="about-contact">
-                      <ul>
-                        <li class="icon"><a href="#" target="_blank"><img src="./images/twitter.png" alt="linked link"></a></li>
-                        <li class="icon"><a href="#" target="_blank"><img src="./images/Linkedin_icon.png" alt="github link"></a></li>
-                        <li class="icon"><a href="#" target="_blank"><img src="./images/M.png" alt="linked link"></a></li>
-                        <li class="icon"><a href="#" target="_blank"><img src="./images/github.png" alt="github link"></a></li>
-                        <li class="icon"><a href="#" target="_blank"><img src="./images/doits.png" alt="Angel list link"></a></li>
-                      </ul>
-                    </div>
-                  </footer>
-                <div>
-                    <button class="btn" type="button">Get my resume</button>
-                </div>
-            </div>
-            <div class="skils">
+<body>
+    <header>
+        <nav class="navbar">
+            <div id="openNav" class="openNav">
+                <i id="close" class="fa-solid fa-close closeIcon"></i>
                 <ul>
-                    <li class="options">
-                        <h3>Languages</h3>
-                        <div><img class="hide" src="images/fleche_dessous.png" alt="selected"></div>
+                    <h3 class="name">Saeqa Sultani</h3>
+                    <li>
+                        <a class="item" href="#Portfolio">
+                            Projects
+                        </a>
                     </li>
                     <li>
-                        <div>
-                            <ul class="list-pro">
-                                <li class="pro">
-                                    <img src="images/java.png" alt="javascript image">
-                                    <p class="">JavaSript</p>
-                                </li>
-                                <li class="pro">
-                                    <img src="images/html.png" alt="javascript image">
-                                    <p class="">html</p>
-                                </li>
-                                <li class="pro">
-                                    <img src="images/css.png" alt="javascript image">
-                                    <p class="">css</p>
-                                </li>
-                            </ul>
-                        </div>
+                        <a class="item" href="#About">
+                            About
+                        </a>
                     </li>
-                    <li class="options">
-                        <h3>Frameworks</h3>
-                        <div><img class="hide" src="images/select.png" alt="selected"></div>
+                    <li>
+                        <a class="item" href="#Contact">
+                            Contact
+                        </a>
                     </li>
-                    <li><div class="bg"></div></li>
-                    <li class="options">
-                        <h3>Skils</h3>
-                        <div><img class="hide" src="images/select.png" alt="selected"></div>
-                    </li>
-                    <li><div class="bg"></div></li>
                 </ul>
             </div>
-        </div>
-    </section>
-
-    <section class="contact-form" id="contact">
-        <div class="background">
-            <img class="mob" src="images/bg-contact-mob.svg" alt="image">
-            <img class="dec" src="images/bg-contact-dec.svg" alt="image">
-            <div class="background-shape"><img class="mob" src="images/contact_shape-mob.svg" alt="image"></div>
-            <div class="background-shape"><img class="dec" src="images/contact-shape-dec.svg" alt="image"></div>
-            <div class="contact-text">
-                <h3>Contact Me</h3>
-                <p>
-                    If you have an application you are interested in developing, a feature that you need
-                    built or a project that needs coding. I'd love to help with it.
-                </p>
-                <div class="form">
-                    <form  id="contactForm" action="https://formspree.io/f/mayvgvny" method="POST">
-                        <div id="valid-text"></div>
-                        <input id="name" class="name"  type="text" name="client-name" required placeholder="Enter your name here" maxlength="30"><br>
-                        <input id="email" class="email" type="email" placeholder="Enter your email here" required name="email"><br>
-                        <textarea id="message"  class="message" name="client-message"  required placeholder="Write your message here" maxlength="500"></textarea>
-                          <input type="submit" name="Get-it-Touch-btn" value="Get it Touch" class="btn-submit">
-                          <img src="../images/bottom-icon.PNG" alt="" class="bottom-icon">
-                      </form>   
-                </div>
+            <a href="#" class="logo">Saeqa Sultani</a>
+            <ul class="desktopNav">
+                <li class="por">
+                    <a href="#Portfolio">Projects</a>
+                </li>
+                <li class="por">
+                    <a href="#About">About</a>
+                </li>
+                <li class="por">
+                    <a href="#Contact">Contact</a>
+                </li>
+            </ul>
+            <i id="menu" class="fa-solid fa-bars"></i>
+        </nav>
+    </header>
+    <section class="headline">
+        <div class="text-holder">
+            <h1 class="primary-text">I'm Saeqa Sultani<br> Glad to see you!</h1>
+            <p class="details">
+                Full stack web developer. JavaScript | React | React/Redux | Ruby | Ruby on Rails | Java | Dart | SQL
+                | PostgreSQL. In love with pair-programming and remote work.
+            </p>
+            <a id="connectBtn" href="https://www.linkedin.com/in/saeqa-sultani/" target="_blank" class="connect">Let's connect</a>
+            <div class="fa-container">
+                <a href="https://www.linkedin.com/in/saeqa-sultani/" target="_blank">
+                    <i class="fa-brands fa-linkedin-in fa"></i>
+                </a>
+                <a href="https://medium.com/@saeqa.sultani" target="_blank">
+                    <i class="fa-brands fa-medium fa"></i>
+                </a>
+                <a href="https://github.com/SaeqaSultani" target="_blank">
+                    <i class="fa-brands fa-github fa"></i>
+                </a>
+                <a href="https://wellfound.com/u/saeqa-sultani" target="_blank">
+                    <i class="fa-solid fa-hand-peace fa"></i>
+                </a>
             </div>
         </div>
     </section>
 
-    <script src="form-valid.js"></script>
-    <script src="local-storage.js"></script>
-    <script src="menu.js"></script>
-    <script src="popup-window.js"></script>
-    
+    <section id="Portfolio" class="works-section">
+
+    </section>
+    <section id="About" class="about-myself">
+        <div class="text-holder-about">
+            <h2 class="primary-text-about">About Myself</h2>
+            <p class="details">
+               <p class="details">I am a full-stack web developer. I currently work mainly with JavaScript in the React Framework for the front-end and Ruby on Rails for the backend. I also have experience working with technologies like MySQL,and PostgreSQL.</p>
+                <br />
+               <p class="details"><b>Thank you so much for visiting and reading</b>.</p>
+            </p>
+            <a href="https://www.linkedin.com/in/saeqa-sultani/" target="_blank" class="connect">Let's connect</a>
+            <div class="fa-container-about">
+                <ul>
+                    <li>
+                    <a href="https://www.linkedin.com/in/saeqa-sultani/" target="_blank">
+                        <i class="fa-brands fa-linkedin-in fa"></i>
+                    </a>
+                    </li>
+                    <li>
+                    <a href="https://medium.com/@saeqa.sultani" target="_blank">
+                        <i class="fa-brands fa-medium fa"></i>
+                    </a>
+                    </li>
+                    <li>
+                    <a href="https://github.com/SaeqaSultani" target="_blank">
+                        <i class="fa-brands fa-github fa"></i>
+                    </a>
+                    </li>
+                    <li>
+                    <a href="https://wellfound.com/u/saeqa-sultani" target="_blank">
+                        <i class="fa-solid fa-hand-peace fa"></i>
+                    </a>
+                    </li>
+                </ul>
+            </div>
+            <a class="see-project-about" href="https://docs.google.com/document/d/16xWZtS3CQ54pmHMDcKn32DlB71AQV-sKISAlWtf9QaI/edit?usp=sharing">Get My Resume!</a>
+        </div>
+
+        <div class="details-2">
+            <ul>
+                <li>
+                    <div id="languagesPanel" class="details-2-content">
+                        <p class="details-2-title">Languages</p>
+                        <i class="fa-solid fa-angle-down downIcon"></i>
+                    </div>
+                    <div id="languagesContainer" class="dropdown-item-container">
+                        <div class="dropdown-item">
+                            <img class="dropdown-img" src="./img/js.png" alt="javascript">
+                            <a class="language">JavaScript</a>
+                        </div>
+                        <div class="dropdown-item">
+                            <img class="dropdown-img" src="./img/css.png" alt="CSS">
+                            <a class="language">CSS</a>
+                        </div>
+                        <div class="dropdown-item">
+                            <img class="dropdown-img" src="./img/html.png" alt="HTML">
+                            <a class="language">HTML</a>
+                        </div>
+                        <div class="dropdown-item">
+                            <img class="dropdown-img" src="./img/ruby.png" alt="ruby">
+                            <a class="language">Ruby</a>
+                        </div>
+                    </div>
+                    <hr />
+                </li>
+
+                <li>
+                    <div id="frameworksPanel" class="details-2-content">
+                        <p class="details-2-title">Frameworks</p>
+                        <i class="fa-solid fa-angle-down downIcon"></i>
+                    </div>
+                    <div id="frameworks" class="dropdown-item-container">
+                        <div class="dropdown-item">
+                            <img class="dropdown-img" src="./img/react logo.png" alt="javascript">
+                            <a class="language">React</a>
+                        </div>
+                        <div class="dropdown-item">
+                            <img class="dropdown-img" src="./img/rails.png" alt="HTML">
+                            <a class="language">Rails</a>
+                        </div>
+                    </div>
+                    <hr>
+                </li>
+                <li>
+                    <div id="databasesPanel" class="details-2-content">
+                        <p class="details-2-title">Databases</p>
+                        <i class="fa-solid fa-angle-down downIcon"></i>
+                    </div>
+                    <div id="databases" class="dropdown-item-container">
+                        <div class="dropdown-item">
+                            <img class="dropdown-img" src="./img/mysql.png" alt="MySQL Database">
+                            <a class="language">MySQL</a>
+                        </div>
+                        <div class="dropdown-item">
+                            <img class="dropdown-img" src="./img/postgresql.png" alt="PostgreSQL Database">
+                            <a class="language">PostgreSQL</a>
+                        </div>
+                    </div>
+                    <hr>
+                </li>
+                <li>
+                    <div id="skillsPanel" class="details-2-content">
+                        <p class="details-2-title">Skills</p>
+                        <i class="fa-solid fa-angle-down downIcon"></i>
+                    </div>
+                    <div id="skills" class="dropdown-item-container">
+                        <div class="dropdown-item">
+                            <a class="language">Problem Solving</a>
+                        </div>
+                        <div class="dropdown-item">
+                            <a class="language">Team Work</a>
+                        </div>
+                        <div class="dropdown-item">
+                            <a class="language">Collaboration</a>
+                        </div>
+                        <div class="dropdown-item">
+                            <a class="language">Agile</a>
+                        </div>
+                        <div class="dropdown-item">
+                            <a class="language">Git</a>
+                        </div>
+                        <div class="dropdown-item">
+                            <a class="language">GitHub</a>
+                        </div>
+                    </div>
+                    <hr>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+    <section id="Contact" class="contact">
+        <div class="contact-text">
+            <h2>Contact me</h2>
+            <p class="contact-paragraph">
+                If you have an application you
+                are interested in developing, a
+                feature that you need built or a
+                project that needs coding. I'd
+                love to help with it
+            </p>
+        </div>
+        <form id="form" action="https://formspree.io/f/mrgjwpba" method="post">
+            <div class="inputContainer">
+                <span id="nameTag" class="inputTag">Enter Your Name:</span>
+                <input id="name" type="text" class="input" name="name" placeholder="Enter Your Name:" required
+                    maxlength="30">
+            </div>
+            <div class="inputContainer">
+                <span id="emailTag" class="inputTag">Enter Your Email:</span>
+                <input id="email" type="email" class="input" name="email" placeholder="Enter Your Email:" required>
+            </div>
+
+            <small id="email-text" class="email-err"></small>
+            <div class="inputContainer">
+                <span id="textTag" class="inputTag">Write Your Message Here!</span>
+                <textarea id="emailText" name="message" class="area" required
+                    maxlength="500">Write your message here!</textarea>
+            </div>
+            <button type="submit" class="button">Get In Touch!</button>
+        </form>
+        <div class="last-div"></div>
+    </section>
+    <div id="modalContainer" class="modalContainer">
+    </div>
+    <script src="./index.js"></script>
 
 </body>
 
 </html>
-
-
-
-
-
