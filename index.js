@@ -98,8 +98,8 @@ const projects = [
   {
     name: 'Budget',
     details: ['Microverse', 'Ruby on Rails App', '2023'],
-    description: ' Budget app where you can setup your different budgets and you can create different categories and also delete your own categories and also create new transactions and also delete your own transactions.',
-    fullDescription: 'Budget app where you can setup your different budgets and you can create different categories and also delete your own categories and also create new transactions and also delete your own transactions. have a list of transactions associated with a category, so that the user can see how much money it spent and on what.',
+    description: ' The Budget App allows you to where you can to setup your different budgets, and you can create different categories, and also delete your own categories, and also create new transactions, and also delete your own transactions.',
+    fullDescription: 'The Budget App allows you to where you can to setup your different budgets, and you can create different categories, and also delete your own categories, and also create new transactions, and also delete your own transactions.',
     image: './img/budget',
     techs: ['HTML', 'CSS', 'Ruby_on_Rails', 'PostgreSQL'],
     liveLink: 'https://saeqa-budget.onrender.com/users/sign_in',
@@ -108,8 +108,8 @@ const projects = [
   {
     name: 'Companies',
     details: ['Microverse', 'React App', '2022'],
-    description: 'Companies info is a web app that gets details about companies from an API and shows details about each country as name, logo, CEO, Price, and Phone.',
-    fullDescription: 'Companies info is a web app that gets details about companies from an API and shows details about each country as name, logo, CEO, Price, Phone, Address, City, Country and etc.',
+    description: 'Companies Info is a web app that retrieves gets details about companies from an API, and shows details about each country as Name, Logo, CEO, Price, and Phone.',
+    fullDescription: 'Companies Info is a web app that retrieves gets details about companies from an API, and shows details about each country as Name, Logo, CEO, Price, and Phone.',
     image: './img/companies',
     techs: ['CSS', 'JSX', 'AJAX', 'React', 'React_Router', 'Redux'],
     liveLink: 'https://companies-site.netlify.app/',
@@ -118,8 +118,8 @@ const projects = [
   {
     name: 'SpaceTravellers',
     details: ['Microverse', 'React App', '2022'],
-    description: 'Space Travellers web application is built upon real live data from the SpaceX API. The main purpose is to build a web application for a company that provides commercial and scientific space travel services.',
-    fullDescription: 'Space Travellers web application is built upon real live data from the SpaceX API. The main purpose is to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
+    description: 'Space Travellers web application is built from upon real live data from the SpaceX API. The main purpose is to build a web application for a company that provides commercial and scientific space travel services.',
+    fullDescription: 'Space Travellers web application is built from upon real live data from the SpaceX API. The main purpose is to build a web application for a company that provides commercial and scientific space travel services.',
     image: './img/spaceـtravele',
     techs: ['CSS', 'JSX', 'AJAX', 'React', 'React_Router', 'Redux'],
     liveLink: 'https://space-travelers-site.netlify.app/',
@@ -128,8 +128,8 @@ const projects = [
   {
     name: 'Chefs pot',
     details: ['Microverse', 'Java Script App', '2022'],
-    description: 'Chefs pot is a webpack project that the purpose of this project is to understand how use JavaScript to make websites dynamic and build basic single page apps,use ES6 syntax,use ES6 modules,use callbacks and promises,use webpack,',
-    fullDescription: 'Chefs pot is a webpack project that the purpose of this project is to understand how use JavaScript to make websites dynamic and build basic single page apps,use ES6 syntax,use ES6 modules,use callbacks and promises,use webpack,',
+    description: "Chef's pot is a webpack project, and that the purpose of this project is to understand how use JavaScript to make websites dynamic and build basic single page apps,using: ES6 syntax,use ES6 modules,use callbacks, and Promises, and use webpack. ",
+    fullDescription: "Chef's pot is a webpack project, and that the purpose of this project is to understand how use JavaScript to make websites dynamic and build basic single page apps,using: ES6 syntax,use ES6 modules,use callbacks, and Promises, and use webpack. ",
     image: './img/chef',
     techs: ['CSS', 'HTML', 'JS'],
     liveLink: 'https://saeqasultani.github.io/JavaScript-capstone-project/',
